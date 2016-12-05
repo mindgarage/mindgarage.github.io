@@ -128,7 +128,7 @@ members:
   - name: Johannes Freiermuth
     position: MS - Computer Science / student at Insiders Technologies GmbH
     text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
-    img: mg_team.jpg
+    img: mg_team.png
     social:
       - title: envelope #use for email address
         url: mailto:j.freiermuth@insiders-technologies.de
