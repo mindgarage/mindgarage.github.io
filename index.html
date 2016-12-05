@@ -24,9 +24,22 @@ permalink: /
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
+        <!--
             <h4>More About MindGarage.</h4>
             <p>{{ site.about }}</p>
             <p><br/><a href="{{ "/team/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            -->
+            <h4>Upcoming Events</h4>
+            <div class="hline"></div>
+            <ul class="popular-posts">
+                {% for post in site.categories['event'] limit:4 %} 
+                <li style="min-height: 0px;">
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                    <em>Starts at: {{ post.estart | date: "%B %d - %Y, %H:%M" }}</em><br>
+                    <em>Ends at: {{ post.eend | date: "%B %d - %Y, %H:%M" }}</em>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
 
         <div class="col-lg-3">
