@@ -109,7 +109,7 @@ members:
         url: https://www.linkedin.com/in/amit-sahu-90975212
   - name: Manabendra Saha
     position: MS - Computer Science
-    text: I like changes and change is the only thing constant in my life.</br></br>
+    text: I like changes and change is the only thing constant in my life.</br></br></br>
     img: mana_team.jpg
     social:
       - title: envelope #use for email address
@@ -118,7 +118,7 @@ members:
         url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
   - name: Vinay Chandran Pondenkandath
     position: MS - Computer Science
-    text: Hello I am Vinay.
+    text: Hello I am Vinay.</br></br>
     img: vinay_team.jpg
     social:
       - title: envelope #use for email address
