@@ -24,7 +24,7 @@
         
     </div><! --/row -->
     <div class="row centered">
-        {% for member in site.members offset:4%}
+        {% for member in site.members offset:4 limit:4%}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
