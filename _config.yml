@@ -82,7 +82,7 @@ members:
         url: https://de.linkedin.com/in/ayushman-dash-18a9a4108
   - name: John Gamboa
     position: MS - Computer Science
-    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.</br></br></br></br>
+    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.</br></br></br>
     img: john_team.jpg
     social:
       - title: envelope #use for email address
@@ -100,7 +100,7 @@ members:
       #  url: http://twitter.com/handle
   - name: Amit Sahu
     position: MS - Computer Science
-    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.</br></br></br></br>
+    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.</br></br>
     img: amit_team.jpg
     social:
       - title: envelope #use for email address
@@ -109,7 +109,7 @@ members:
         url: https://www.linkedin.com/in/amit-sahu-90975212
   - name: Manabendra Saha
     position: MS - Computer Science
-    text: I like changes and change is the only thing constant in my life.
+    text: I like changes and change is the only thing constant in my life.</br></br>
     img: mana_team.jpg
     social:
       - title: envelope #use for email address
@@ -127,7 +127,7 @@ members:
         url: https://www.linkedin.com/in/vinaychandranp
   - name: Johannes Freiermuth
     position: MS - Computer Science / student at Insiders Technologies GmbH
-    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
+    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.</br></br>
     img: mg_team.png
     social:
       - title: envelope #use for email address
