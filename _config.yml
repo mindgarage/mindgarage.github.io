@@ -55,7 +55,7 @@ tel: better write a mail ;)
 members:
   - name: Marcus Liwicki
     position: Head
-    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
+    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning</br></br></br></br>.
     img: liwicki_team.jpg
     social:
       - title: envelope #use for email address
@@ -73,7 +73,7 @@ members:
         url: https://www.linkedin.com/in/muhammad-zeshan-afzal-7a8148105
   - name: Ayushman Dash
     position: MS - Computer Science
-    text: love for applications of Artificial Intelligence, music and audio production drive me.
+    text: love for applications of Artificial Intelligence, music and audio production drive me</br></br></br></br>.
     img: ayush_team.jpg
     social:
       - title: envelope #use for email address
@@ -82,7 +82,7 @@ members:
         url: https://de.linkedin.com/in/ayushman-dash-18a9a4108
   - name: John Gamboa
     position: MS - Computer Science
-    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage
+    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.</br></br></br></br>
     img: john_team.jpg
     social:
       - title: envelope #use for email address
@@ -91,7 +91,7 @@ members:
       #  url: http://twitter.com/handle
   - name: Dominik Bermühler
     position: Bachelors - Computer Science
-    text: Hello I am Dominik.
+    text: Hello I am Dominik.</br></br></br>
     img: dominik.jpg
     social:
       - title: envelope #use for email address
@@ -109,7 +109,7 @@ members:
         url: https://www.linkedin.com/in/amit-sahu-90975212
   - name: Manabendra Saha
     position: MS - Computer Science
-    text: I like changes and change is the only thing constant in my life.
+    text: I like changes and change is the only thing constant in my life.</br></br>
     img: mana_team.jpg
     social:
       - title: envelope #use for email address
@@ -118,7 +118,7 @@ members:
         url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
   - name: Vinay Chandran Pondenkandath
     position: MS - Computer Science
-    text: Hello I am Vinay.
+    text: Hello I am Vinay.</br></br>
     img: vinay_team.jpg
     social:
       - title: envelope #use for email address
@@ -130,7 +130,7 @@ members:
 supporters:
   - name: Werner Weiss
     position: CEO of Insiders Technologies GmbH
-    text: The MindGarage is an opportunity for the Region of Kaiserslautern
+    text: The MindGarage is an opportunity for the Region of Kaiserslautern.</br></br></br></br></br></br></br></br></br>
     img: mg_team.png
     social:
       - title: envelope #use for email address
