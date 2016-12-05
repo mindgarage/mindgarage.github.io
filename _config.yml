@@ -56,7 +56,7 @@ members:
   - name: Marcus Liwicki
     position: Head
     text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
-    img: liwicki_team.jpg
+    img: marcus_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:liwicki@cs.uni-kl.de 
@@ -152,6 +152,13 @@ supporters:
     social:
       - title: envelope #use for email address
         url: mailto:M.Ebbecke@insiders-technologies.de 
+  - name: Fotini Simistira
+    position: Senior Researcher at University of Fribourg
+    text: I love Deep Learning and I love the MindGarage
+    img: fotini_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:fotini.simistira@unifr.ch 
 
         
 # Partner information. Shown on Home and About pages.
