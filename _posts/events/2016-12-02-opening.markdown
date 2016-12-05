@@ -2,8 +2,8 @@
 layout: post
 title: "Official Opening of the MindGarage"
 date: 2016-12-02 16:54:46
-estart: 2016-12-05 16:15:00
-eend: 2016-12-05 18:00:00
+estart: 2016-12-05 17:15:00
+eend: 2016-12-05 19:00:00
 author: Marcus Liwicki
 categories: 
 - event
