@@ -125,7 +125,17 @@ members:
         url: mailto:vinaychandranp@gmail.com
       - title: linkedin
         url: https://www.linkedin.com/in/vinaychandranp
+  - name: Johannes Freiermuth
+    position: MS - Computer Science / student at Insiders Technologies GmbH
+    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
+    img: mg_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:j.freiermuth@insiders-technologies.de
+      - title: linkedin
+        url: https://www.linkedin.com/in/vinaychandranp
 
+        
 # Supporters information. Shown on About page.
 supporters:
   - name: Werner Weiss
@@ -136,7 +146,7 @@ supporters:
       - title: envelope #use for email address
         url: mailto:w.weiss@insiders-technologies.de 
   - name: Markus Ebbecke
-    position: Head of the Deep Learning Competence Center at Insiders Technologies GmbH
+    position: Head of Department at Insiders Technologies GmbH
     text: Deep Learning is a technology which offers amazing opportunities for future business. It is fantastic to see people having an enormous competence working at the MindGarage. They attract other young talents and together they are able to push the limits of technology further. I am very happy about this place as an opportunity in Kaiserslautern.
     img: mg_team.png
     social:
