@@ -55,7 +55,7 @@ tel: better write a mail ;)
 members:
   - name: Marcus Liwicki
     position: Head
-    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
+    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.</br></br></br></br>
     img: marcus_team.jpg
     social:
       - title: envelope #use for email address
@@ -128,7 +128,7 @@ members:
   - name: Johannes Freiermuth
     position: MS - Computer Science / student at Insiders Technologies GmbH
     text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
-    img: mg_team.jpg
+    img: mg_team.png
     social:
       - title: envelope #use for email address
         url: mailto:j.freiermuth@insiders-technologies.de
@@ -155,7 +155,7 @@ supporters:
   - name: Fotini Simistira
     position: Senior Researcher at University of Fribourg
     text: I love Deep Learning and I love the MindGarage
-    img: fotini_team.jpg
+    img: fotini-team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:fotini.simistira@unifr.ch 
