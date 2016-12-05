@@ -11,8 +11,9 @@ img: party.jpg
 thumb: blog_thumb.png
 ---
 
-### Starts at: {{ page.estart | date: "%B %d - %Y, %H:%M" }}
-### Ends at: {{ page.eend | date: "%B %d - %Y, %H:%M" }}
+#### Starts at: {{ page.estart | date: "%B %d - %Y, %H:%M" }}
+
+#### Ends at: {{ page.eend | date: "%B %d - %Y, %H:%M" }}
 
 We will have the official opening of the MindGarage next Monday at 17:15 in room 48-453 of the TU Kaiserslautern. Please redistribute this information to people wo might be interested.
 
