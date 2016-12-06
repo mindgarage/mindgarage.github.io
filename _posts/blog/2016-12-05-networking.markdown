@@ -9,27 +9,27 @@ categories:
 img: 2016-12-05-networking.jpg
 thumb: blog_thumb.png
 images:
-- image_path: /assets/img/gallary/2016-12-05-networking/1.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/2.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/3.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/4.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/5.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/6.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/7.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/8.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/9.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/10.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/11.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/12.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/13.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/14.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/15.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/16.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/17.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/18.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/19.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/20.jpg
-- image_path: /assets/img/gallary/2016-12-05-networking/21.jpg
+- image_path: /assets/img/gallary/2016-12-05-networking/1.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/2.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/3.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/4.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/5.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/6.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/7.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/8.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/9.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/10.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/11.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/12.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/13.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/14.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/15.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/16.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/17.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/18.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/19.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/20.JPG
+- image_path: /assets/img/gallary/2016-12-05-networking/21.JPG
 
 
 ---
