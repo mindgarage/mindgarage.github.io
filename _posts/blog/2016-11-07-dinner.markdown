@@ -23,7 +23,7 @@ images:
 
 ---
 
-Last week we have [set-up](http://blogs.rhrk.uni-kl.de/mindgarage/2016/10/the-mindgarage-is-born/) the MindGarage. As a small token of appreciation, [Marcus](http://blogs.rhrk.uni-kl.de/mindgarage/marcus-liwicki/) invited the volunteers to a dinner at the Saigon restaurant. It was a gorgeous dinner and we had nice discussions about what we are going to do in the MindGarage. Some impressions below.
+Last week we have [set-up](http://blog.mindgarage.de/blog/fun/2016-10-mindgarage-was-born) the MindGarage. As a small token of appreciation, [Marcus](http://blogs.rhrk.uni-kl.de/mindgarage/marcus-liwicki/) invited the volunteers to a dinner at the Saigon restaurant. It was a gorgeous dinner and we had nice discussions about what we are going to do in the MindGarage. Some impressions below.
 
 <ul class="photo-gallery">
   {% for image in page.images %}
