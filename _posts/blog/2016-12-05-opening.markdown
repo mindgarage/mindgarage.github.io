@@ -5,7 +5,8 @@ date: 2016-12-05 21:35:00
 author: Marcus Liwicki
 categories: 
 - blog
-tagged: intro, official
+- intro
+- official
 img: 2016-12-05-opening.jpg
 thumb: blog_thumb.png
 images:
