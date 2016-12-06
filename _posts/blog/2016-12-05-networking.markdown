@@ -33,7 +33,7 @@ images:
 
 
 ---
-After the official [opening]http://blog.mindgarage.de/blog/intro/2016-12-opening)) we celebrated the successful start with a glass of wine/juice and used the chance for some interesting discussions and for getting to know each other. Thanks to the kind support of the Insiders team, we had a nice atmosphere and good drinks. Also the chips I offered (various kinds of all brands one could get in the region of Kaiserslautern) were all eaten at the end of this celebration. I am happy that so many people (>50) came and that we had such interesting discussions about AI, possible projects and collaborations with other research groups, and the societal aspects of AI. Below you can find some impressions of the evening. Let us celebrate the MindGarage being "The place for OpenMinded Research"!
+After the official [opening]http://blog.mindgarage.de/blog/intro/official/2016-12-opening)) we celebrated the successful start with a glass of wine/juice and used the chance for some interesting discussions and for getting to know each other. Thanks to the kind support of the Insiders team, we had a nice atmosphere and good drinks. Also the chips I offered (various kinds of all brands one could get in the region of Kaiserslautern) were all eaten at the end of this celebration. I am happy that so many people (>50) came and that we had such interesting discussions about AI, possible projects and collaborations with other research groups, and the societal aspects of AI. Below you can find some impressions of the evening. Let us celebrate the MindGarage being "The place for OpenMinded Research"!
 
 
 <ul class="photo-gallery">
