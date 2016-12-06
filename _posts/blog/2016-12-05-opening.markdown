@@ -10,27 +10,27 @@ categories:
 img: 2016-12-05-opening.jpg
 thumb: blog_thumb.png
 images:
-- image_path: /assets/img/gallary/2016-12-05-opening/1.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/2.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/3.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/4.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/5.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/6.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/7.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/8.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/9.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/10.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/11.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/12.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/13.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/14.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/15.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/16.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/17.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/18.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/19.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/20.jpg
-- image_path: /assets/img/gallary/2016-12-05-opening/thanks.jpg
+- image_path: /assets/img/gallary/2016-12-05-opening/1.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/2.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/3.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/4.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/5.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/6.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/7.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/8.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/9.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/10.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/11.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/12.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/13.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/14.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/15.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/16.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/17.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/18.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/19.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/20.JPG
+- image_path: /assets/img/gallary/2016-12-05-opening/thanks.JPG
 
 
 ---
