@@ -28,8 +28,8 @@ colors:  #in hex code if not noted else
 social:
   #- title: dribbble
   #  url:
-  #- title: facebook
-  #  url:
+  - title: facebook
+    url: https://www.facebook.com/OvationMindGarage/
   - title: twitter
     url: https://twitter.com/mindgarage1
   - title: instagram
@@ -61,7 +61,7 @@ members:
       - title: envelope #use for email address
         url: mailto:liwicki@cs.uni-kl.de 
       - title: linkedin
-        url: hhttps://www.linkedin.com/in/liwicki/en
+        url: http://blog.mindgarage.de/liwicki/
   - name: Muhammad Zeshan Afzal
     position: Co-founder
     text: MindGarage is a workplace that allows me to convert creative ideas to real application by mentoring the whole process and motivating, inspiring, encouraging, and helping the students as well to explore the area to best of their abilities.
