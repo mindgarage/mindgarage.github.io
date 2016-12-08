@@ -58,28 +58,28 @@ members:
     text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.</br></br></br></br>
     img: marcus_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:liwicki@cs.uni-kl.de 
-      - title: linkedin
+      - title: fa-link
         url: http://blog.mindgarage.de/liwicki/
+      - title: envelope #use for email address
+        url: mailto:liwicki@cs.uni-kl.de
   - name: Muhammad Zeshan Afzal
     position: Co-founder
     text: MindGarage is a workplace that allows me to convert creative ideas to real application by mentoring the whole process and motivating, inspiring, encouraging, and helping the students as well to explore the area to best of their abilities.
     img: shan_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:afzal@iupr.com 
       - title: linkedin
         url: https://www.linkedin.com/in/muhammad-zeshan-afzal-7a8148105
+      - title: envelope #use for email address
+        url: mailto:afzal@iupr.com
   - name: Ayushman Dash
     position: MS - Computer Science
     text: love for applications of Artificial Intelligence, music and audio production drive me.</br></br></br></br>
     img: ayush_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:dash.ayushman.99@gmail.com
       - title: linkedin
         url: https://de.linkedin.com/in/ayushman-dash-18a9a4108
+      - title: envelope #use for email address
+        url: mailto:dash.ayushman.99@gmail.com
   - name: John Gamboa
     position: MS - Computer Science
     text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.</br></br></br>
@@ -87,8 +87,6 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:vaulttech@gmail.com 
-      #- title: twitter
-      #  url: http://twitter.com/handle
   - name: Dominik Bermühler
     position: Bachelors - Computer Science
     text: Hello I am Dominik.
@@ -96,44 +94,42 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:dominik.bermuehler@gmail.com
-      #- title: twitter
-      #  url: http://twitter.com/handle
   - name: Amit Sahu
     position: MS - Computer Science
     text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.</br></br>
     img: amit_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:amit.sahu89@gmail.com 
       - title: linkedin
         url: https://www.linkedin.com/in/amit-sahu-90975212
+      - title: envelope #use for email address
+        url: mailto:amit.sahu89@gmail.com
   - name: Manabendra Saha
     position: MS - Computer Science
     text: I like changes and change is the only thing constant in my life.</br></br></br>
     img: mana_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:amit.sahu89@gmail.com 
       - title: linkedin
         url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
+      - title: envelope #use for email address
+        url: mailto:amit.sahu89@gmail.com
   - name: Vinay Chandran Pondenkandath
     position: MS - Computer Science
     text: Hello I am Vinay.</br></br></br>
     img: vinay_team.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:vinaychandranp@gmail.com
       - title: linkedin
         url: https://www.linkedin.com/in/vinaychandranp
+      - title: envelope #use for email address
+        url: mailto:vinaychandranp@gmail.com
   - name: Johannes Freiermuth
     position: MS - Computer Science / student at Insiders Technologies GmbH
     text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.</br></br>
     img: mg_team.png
     social:
-      - title: envelope #use for email address
-        url: mailto:j.freiermuth@insiders-technologies.de
       - title: linkedin
         url: https://www.linkedin.com/in/vinaychandranp
+      - title: envelope #use for email address
+        url: mailto:j.freiermuth@insiders-technologies.de
 
         
 # Supporters information. Shown on About page.

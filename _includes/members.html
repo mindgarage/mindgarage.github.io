@@ -1,74 +1,38 @@
 <div class="container mtb">
     <div class="row centered">
         <h3 class="mb">Meet Our Team</h3>
-        
-        {% for member in site.members limit:4%}
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in member.social %}
-                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
-            <p>{{ member.text }}</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->	 	
-        {% endfor %}
-        
-    </div><! --/row -->
+    </div>
+    {% for member in site.members %}
+    {% assign modulo = forloop.index0 | modulo:4 %}
+    {% if modulo == 0 or forloop.first %}
     <div class="row centered">
-        {% for member in site.members offset:4 limit:4%}
-        {% if forloop.index <= 4 %}
+    {% endif %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                {% if member.social.first %}
+                <a href="{{ member.social.first.url }}">
+                    <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                </a>
+                {% else %}
+                {% endif %}
+
                 <div class="he-view">
                     <div class="bg a0" data-animate="fadeIn">
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
                         {% for entry in member.social %}
-                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                         {% endfor %}
                     </div><!-- he bg -->
-                </div><!-- he view -->      
+                </div><!-- he view -->
             </div><!-- he wrap -->
             <h4>{{ member.name }}</h4>
             <h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
-        </div><! --/col-lg-3 -->   
-        {% endif %}
-        {% endfor %}
-        
+        </div><! --/col-lg-3 -->
+    {% if modulo == 3 or forloop.last %}
     </div><! --/row -->
-    
-    <div class="row centered">
-        {% for member in site.members offset:8%}
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in member.social %}
-                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->      
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
-            <p>{{ member.text }}</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->        
-        {% endfor %}
-        
-    </div><! --/row -->
+    {% endif %}
+    {% endfor %}
 
 </div><! --/container -->
