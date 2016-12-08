@@ -55,7 +55,7 @@ tel: better write a mail ;)
 members:
   - name: Marcus Liwicki
     position: Head
-    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.</br></br></br></br>
+    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
     img: marcus_team.jpg
     social:
       - title: fa-link
@@ -73,7 +73,7 @@ members:
         url: mailto:afzal@iupr.com
   - name: Ayushman Dash
     position: MS - Computer Science
-    text: love for applications of Artificial Intelligence, music and audio production drive me.</br></br></br></br>
+    text: love for applications of Artificial Intelligence, music and audio production drive me.
     img: ayush_team.jpg
     social:
       - title: linkedin
@@ -82,21 +82,28 @@ members:
         url: mailto:dash.ayushman.99@gmail.com
   - name: John Gamboa
     position: MS - Computer Science
-    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.</br></br></br>
+    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.
     img: john_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:vaulttech@gmail.com 
+  - name: Ingrid Romani
+    position: Administrative
+    text:  I am glad to support the Mind Garage in all administrative aspects.
+    img: ingrid_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:romani@iupr.com
   - name: Dominik Bermühler
     position: Bachelors - Computer Science
-    text: Hello I am Dominik.
+    text: For me as a student, the MindGarage offers an awesome startup-like environment where I can discuss and learn about the latest ideas in the field of Deep Learning.
     img: dominik.jpg
     social:
       - title: envelope #use for email address
         url: mailto:dominik.bermuehler@gmail.com
   - name: Amit Sahu
     position: MS - Computer Science
-    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.</br></br>
+    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.
     img: amit_team.jpg
     social:
       - title: linkedin
@@ -105,7 +112,7 @@ members:
         url: mailto:amit.sahu89@gmail.com
   - name: Manabendra Saha
     position: MS - Computer Science
-    text: I like changes and change is the only thing constant in my life.</br></br></br>
+    text: I like changes and change is the only thing constant in my life.
     img: mana_team.jpg
     social:
       - title: linkedin
@@ -123,13 +130,18 @@ members:
         url: mailto:vinaychandranp@gmail.com
   - name: Johannes Freiermuth
     position: MS - Computer Science / student at Insiders Technologies GmbH
-    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.</br></br>
-    img: mg_team.png
+    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
+    img: johannes_team.jpg
     social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/vinaychandranp
       - title: envelope #use for email address
         url: mailto:j.freiermuth@insiders-technologies.de
+  - name: Andreas Kölsch
+    position: MS - Computer Science / student at Insiders Technologies GmbH
+    text: Hello, I am Andreas.
+    img: andreas_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:a.koelsch@insiders-technologies.de
 
         
 # Supporters information. Shown on About page.
@@ -141,10 +153,17 @@ supporters:
     social:
       - title: envelope #use for email address
         url: mailto:w.weiss@insiders-technologies.de 
+  - name: Norbert Wehn
+    position: Vice President of the University of Kaiserslautern / Prof. in Microelectronic Systems
+    text: The MindGarage is a great and innovative idea for education and research in this important topic.
+    img: wehn_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:wehn@eit.uni-kl.de
   - name: Markus Ebbecke
     position: Head of Department at Insiders Technologies GmbH
     text: Deep Learning is a technology which offers amazing opportunities for future business. It is fantastic to see people having an enormous competence working at the MindGarage. They attract other young talents and together they are able to push the limits of technology further. I am very happy about this place as an opportunity in Kaiserslautern.
-    img: mg_team.png
+    img: ebbecke_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:M.Ebbecke@insiders-technologies.de 
