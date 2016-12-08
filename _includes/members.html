@@ -8,11 +8,10 @@
     <div class="row centered">
     {% endif %}
         <div class="col-lg-3 col-md-3 col-sm-3">
+            <a href="{{ member.social.first.url }}">
             <div class="he-wrap tpl6">
                 {% if member.social.first %}
-                <a href="{{ member.social.first.url }}">
                     <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                </a>
                 {% else %}
                 {% endif %}
 
@@ -30,6 +29,7 @@
             <p>{{ member.text }}</p>
             <div class="hline"></div>
         </div><! --/col-lg-3 -->
+        </a>
     {% if modulo == 3 or forloop.last %}
     </div><! --/row -->
     {% endif %}
