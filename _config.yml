@@ -137,7 +137,7 @@ members:
         url: mailto:j.freiermuth@insiders-technologies.de
   - name: Andreas Kölsch
     position: MS - Computer Science / student at Insiders Technologies GmbH
-    text: Hello, I am Andreas.
+    text: To me the MindGarage is not only a lab which is equipped with excellent  hardware, but also a knowledge hub and a place for discussion. This makes it the perfect place to gain more insights into Deep Learning and AI in general.
     img: andreas_team.jpg
     social:
       - title: envelope #use for email address
