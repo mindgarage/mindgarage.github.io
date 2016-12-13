@@ -15,7 +15,7 @@
                     {%if member.social.first%}
                     <div onclick="location.href='{{member.social.first.url}}';"  class="bg a0" data-animate="fadeIn">
                     {% else %}
-                        <div class="bg a0" data-animate="fadeIn">
+                    <div class="bg a0" data-animate="fadeIn">
                     {% endif %}
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
                         {% for entry in member.social %}
