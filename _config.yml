@@ -94,13 +94,6 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:romani@iupr.com
-  - name: Rajveer Shringi
-    position: MS - Computer Science
-    text:  I am an aspiring Computer Scientist, trying to make this world a better place to live.
-    img: rajveer_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:raj.shringi@gmail.com
   - name: Dominik Bermühler
     position: Bachelors - Computer Science
     text: For me as a student, the MindGarage offers an awesome startup-like environment where I can discuss and learn about the latest ideas in the field of Deep Learning.
