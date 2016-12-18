@@ -154,13 +154,6 @@ members:
         
 # Supporters information. Shown on About page.
 supporters:
-  - name: Fachbereich Informatik
-    position: University of Kaiserslautern
-    text: We support the MindGarage with rooms and infrastructure
-    img: fachbereich_team.png
-    social:
-      - title: fa-link
-        url: http://www.informatik.uni-kl.de/
   - name: Werner Weiss
     position: CEO of Insiders Technologies GmbH
     text: The MindGarage is an opportunity for the Region of Kaiserslautern

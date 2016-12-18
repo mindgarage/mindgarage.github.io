@@ -14,17 +14,13 @@
             <div class="he-wrap tpl6">
             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ supporter.img }}" alt="">
                 <div class="he-view">
-                    {%if supporter.social.first%}
-                    <div onclick="location.href='{{supporter.social.first.url}}';"  class="bg a0" data-animate="fadeIn">
-                    {% else %}
                     <div class="bg a0" data-animate="fadeIn">
-                    {% endif %}
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in member.social %}
-                        <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% for entry in supporter.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                         {% endfor %}
                     </div><!-- he bg -->
-                </div><!-- he view -->
+                </div><!-- he view -->		
             </div><!-- he wrap -->
             <h4>{{ supporter.name }}</h4>
             <h5 class="ctitle">{{ supporter.position }}</h5>
