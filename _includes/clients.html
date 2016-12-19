@@ -1,0 +1,12 @@
+<div id="cwrap">
+    <div class="container">
+        <div class="row centered">
+            <h3>OUR PARTNERS</h3>
+            {% for client in site.partners %}
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
+                </div>
+            {% endfor %}
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/cwrap -->
