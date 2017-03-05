@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "ransforming Sensor Data to the Image Domain for Deep Learning - an Application to Footstep Detection"
+title:  "Transforming Sensor Data to the Image Domain for Deep Learning - an Application to Footstep Detection"
 date:   2017-01-04 12:00:00
 author: Monit Shah Singh, Vinaychandran Pondenkandath, Bo Zhou, Paul Lukowicz, Marcus Liwicki
 categories:
