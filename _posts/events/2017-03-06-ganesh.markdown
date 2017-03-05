@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Final Master Thesis Presentation of Ganesh Harugeri"
+date: 2017-03-01 19:02:00
+estart: 2017-03-06 13:00:00
+eend: 2017-03-06 13:45:00
+author: Marcus Liwicki
+categories:
+- event
+img: ganesh.png
+thumb: blog_thumb.png
+---
+
+#### Starts at: {{ page.estart | date: "%B %d - %Y, %H:%M" }}
+
+#### Ends at: {{ page.eend | date: "%B %d - %Y, %H:%M" }}
+
+On Monday the 6th of March Ganesh will present his Master thesis. He has been working on Music Information retrieval.
+Best regards,
+
+Marcus
