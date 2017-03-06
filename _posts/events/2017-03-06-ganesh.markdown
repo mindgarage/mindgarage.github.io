@@ -16,6 +16,7 @@ thumb: blog_thumb.png
 #### Ends at: {{ page.eend | date: "%B %d - %Y, %H:%M" }}
 
 On Monday the 6th of March Ganesh will present his Master thesis. He has been working on Music Information retrieval.
+The presentation will be in Room 48-379 at 13h
 Best regards,
 
 Marcus
