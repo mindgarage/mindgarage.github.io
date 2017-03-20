@@ -153,7 +153,13 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:vitorrey@googlemail.com
-
+  - name: Priyamvada Shankar
+    position: MS - Computer Science / student at Bayer AG
+    text: For someone like me who is deeply interested in understanding various facets of AI and its numerous merits, MindGarage acts as a focal point, providing the infrastructure and atmosphere for like minded people to get together and transform ideas into reality.
+    img: priyamvada_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:p_shankar15@cs.uni-kl.de
 
         
 # Supporters information. Shown on About page.
