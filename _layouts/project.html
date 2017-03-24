@@ -25,8 +25,12 @@ layout: default
             <p><b>Tagged:</b> {{ page.tagged }}</p>
             <p><b>Client:</b> {{ page.client }}</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+
         </div>
     </div><! --/row -->
+    <div><!-- image-->
+        <img src="{{page.img}}">
+    </div>
 </div><! --/container -->
-	 
+
 {% include portfolio.html title="Related Works." limit=5 %}
