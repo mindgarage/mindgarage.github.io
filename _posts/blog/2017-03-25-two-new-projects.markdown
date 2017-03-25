@@ -7,7 +7,8 @@ categories:
 - blog
 - publications
 - arxiv
-img: tac-gan.png.thumb: blog_thumb.png
+img: tac-gan.png
+thumb: blog_thumb.png
 
 
 ---
