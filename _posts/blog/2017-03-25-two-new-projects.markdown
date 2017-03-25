@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The lates two project outcomes on arxiv"
+title: "The latest two project outcomes on arxiv"
 date: 2017-03-25 06:25:00
 author: Marcus Liwicki
 categories:
