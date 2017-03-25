@@ -22,13 +22,12 @@ layout: default
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> {{ page.tagged }}</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
 
         </div>
     </div><! --/row -->
     <div><!-- image-->
-        <img src="{{page.img}}">
+        <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}" alt="">
     </div>
 </div><! --/container -->
 
