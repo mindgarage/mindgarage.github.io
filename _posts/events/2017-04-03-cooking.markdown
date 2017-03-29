@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Cooking at the MindGarage"
+date: 2017-03-29 10:02:00
+estart: 2017-04-03 19:30:00
+eend: 2017-04-03 22:00:00
+author: Marcus Liwicki
+categories:
+- event
+img: cooking.jpeg
+thumb: blog_thumb.png
+---
+
+#### Starts at: {{ page.estart | date: "%B %d - %Y, %H:%M" }}
+
+#### Ends at: {{ page.eend | date: "%B %d - %Y, %H:%M" }}
+
+On Monday the 4th of April we will cook together in the kitchen of 48-6. Cooking starts at 17h, Eating at 19:30.
+Please indicate if you want to participate at:
+<a href="https://www.facebook.com/events/169701973548756/">MindGarage Facebook Event</a>.
+
+Looking forward to see you!
+
+Best regards,
+
+Marcus
