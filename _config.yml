@@ -160,7 +160,48 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:p_shankar15@cs.uni-kl.de
-
+  - name: Rajveer Shringi
+    position: MS - Computer Science
+    text: Trying to make this world a better place to live, one day at a time. 
+    img: raj.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:rshringi@cs.uni-kl.de
+  - name: Rajesh Chidambaram
+    position: MS - Cognitive Science
+    text: MindGarage is the place to Deep learn ! 
+    img: chiddu.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:chidamba@rhrk.uni-kl.de
+  - name: Vikrant Singh
+    position: MS - Computer Science
+    text: MindGarage is a cool place to do open minded research
+    img: vsingh.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:vikrantsing1108@gmail.com
+  - name: Soshi Shimada
+    position: MS - Computer Science
+    text: I like to play with Deep Learning and I found a nice place with a lot of computational power.
+    img: soshi.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:soshi0928@gmail.com
+  - name: Surajit Dey
+    position: MS - Computer Science
+    text: I want to be a part of Mind Garage because I want to explore the interesting and innovative ideas shared by the Mind Garage Team and at the same time learn about new State of The Art architectures and models that could be implemented in our own projects.
+    img: sdey.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:s_dey16@cs.uni-kl.de
+  - name: Ashutosh Mishra
+    position: MS - Computer Science
+    text: Go Deep Learning :)
+    img: amishra.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:ashutosh@cs.uni-kl.de
         
 # Supporters information. Shown on About page.
 supporters:

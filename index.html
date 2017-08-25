@@ -32,7 +32,7 @@ permalink: /
             <h4>Upcoming and Latest Events</h4>
             <div class="hline"></div>
             <ul class="popular-posts">
-                {% for post in site.categories['event'] limit:4 %} 
+                {% for post in site.categories['event'] limit:5 %} 
                 <li style="min-height: 0px;">
                     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                     <em>Starts at: {{ post.estart | date: "%B %d - %Y, %H:%M" }}</em><br>
