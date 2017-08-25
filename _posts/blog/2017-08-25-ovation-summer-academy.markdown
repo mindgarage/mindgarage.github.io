@@ -27,7 +27,7 @@ If you want to quickly apply for the OSA-alpha, you can do it <a href="https://g
  * #### **What**: Ovation Summer Academy alpha
  * #### **When**: 18/09/2017 till 22/09/2017
  * #### **Where**: Berlin, Germany
- * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017**
+ * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017** (a one-page cv is required to be uploaded)
  * #### **Registration Fees**: **None**
  * #### **Costs for the hotel, rooms, food, social events, and (some) drinks will be covered by Insiders Technologies**
 
