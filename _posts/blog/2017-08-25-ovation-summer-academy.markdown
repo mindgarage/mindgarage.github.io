@@ -30,7 +30,7 @@ If you want to quickly apply for the OSA-alpha, you can do it <a href="https://g
  * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017**
  * #### **Registration Fees**: **None**
  * #### **Costs for the hotel, rooms, food, social events, and (some) drinks will be covered by Insiders Technologies**
-
+ * #### **Tentative Schedule**: [here](https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/41685273735b522bcdaa0603d087aa61/schedule.pdf)
 <br>
 
 # **Participation Requirements**
@@ -63,7 +63,7 @@ As mentioned above, we are going to come up with innovative solutions and tools 
 <br>
 
 ## **1. Intent Classification (IC)**
-Classifying the intent of what a person says. Intent Classifiers are the core of Chat-Bots. For a machine to give a response to a Natural Language query by a human, it needs to understand the intent of the human and once the intent is classified, a response can be generated.
+[Classifying the intent](https://chatbotslife.com/text-classification-using-algorithms-e4d50dcba45) of what a person says. Intent Classifiers are the core of Chat-Bots. For a machine to give a response to a Natural Language query by a human, it needs to understand the intent of the human and once the intent is classified, a response can be generated.
 
 We will cover the following sub-tasks under Intent Classifications which will be the building blocks of an Intent Classifier.
 
@@ -71,7 +71,7 @@ We will cover the following sub-tasks under Intent Classifications which will be
 
 ### **1.1 Semantic Relatedness of Sentences**
 
-Given pairs of similar and dissimilar sentences, predict the semantic relatedness between them. One possibility would be to develop Machine Learning models to do the prediction and combine it with conventional approaches.
+Given pairs of similar and dissimilar sentences, predict the [semantic relatedness](https://www.quora.com/Whats-the-difference-between-semantic-relatedness-and-semantic-similarity-and-how-to-calculate-them) between them. One possibility would be to develop Machine Learning models to do the prediction and combine it with conventional approaches.
 
 <br>
 
@@ -179,15 +179,48 @@ Good that you asked! If you are interested in participating on the Ovation Summe
     </th>
 </tr>
 <tr>
-    <th></th>
-    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha//uploads/2e5db0d17c83437dce73df33972f824a/weiss_team.jpg" alt="Werner Weiss" style="width: 90%;margin-left:6px;"></th>
-    <th><img src="http://www.insiders-technologies.de/fileadmin/images/Presse/Presse_Bildmaterial/technologies_logo/rgb/insiders_technologies_rgb.png" alt="Insiders Technologies" style="width: 90%;margin-left:6px;">
-    <th></th>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/7cf3ffac2095fa55e77b2d44c79316e6/fotini_team.jpg" alt="Fotini Simistira" style="width: 90%;margin-left:6px;">
     </th>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/30e63162eeab2b241635c3942cdc90d6/dominik.jpg" alt="Dominik Bermühler" style="width: 90%;margin-left:6px;"></th>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/699e5323a123806227532826bc21b7a7/andreas_team.jpg" alt="Andreas Kölsch" style="width: 90%;margin-left:6px;"></th>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/f7cd47621e5b05b248ba4f691d3f9e63/ebbecke_team.jpg" alt="Afzal" style="width: 90%;margin-left:6px;"></th>
+</tr>
+<tr>
+    <th style="text-align: center;width: 25%;">
+            <span style="font-size: 120%;">Fotini Simistira</span>
+            <br> <span style="font-size: 110%;">Organization Chair</span> 
+            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span></span>
+    </th>
+    <th style="text-align: center;width: 25%;">
+            <span style="font-size: 120%;">Dominik Bermühler</span>
+            <br> <span style="font-size: 110%;">Organization Chair</span> 
+            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+    </th>
+    <th style="text-align: center;width: 25%;">
+            <span style="font-size: 120%;">Andreas Kölsch</span>
+            <br> <span style="font-size: 110%;">Organization Chair</span> 
+            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+    </th>
+    <th style="text-align: center;width: 25%;">
+            <span style="font-size: 120%;">Markus Ebbecke</span>
+            <br> <span style="font-size: 110%;">Industrial Organization Chair</span>
+            <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
+    </th>
+</tr>
+<tr>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/bdce14870967986663b6fc2a7c9578ce/armin.jpg" alt="Armin Stahl" style="width: 90%;margin-left:6px;"></th>
+    <th><img src="https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/2e5db0d17c83437dce73df33972f824a/weiss_team.jpg" alt="Werner Weiss" style="width: 90%;margin-left:6px;"></th>
+    <th><img src="http://www.insiders-technologies.de/fileadmin/images/Presse/Presse_Bildmaterial/technologies_logo/rgb/insiders_technologies_rgb.png" alt="Insiders Technologies" style="width: 90%;margin-left:6px;">
+    </th>
+    <th></th>
     
 </tr>
 <tr>
-    <th></th>
+    <th style="text-align: center;width: 25%;">
+            <span style="font-size: 120%;">Armin Stahl</span>
+            <br> <span style="font-size: 110%;">Industrial Organization Chair</span> 
+            <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
+    </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Werner Weiss</span>
             <br> <span style="font-size: 110%;">CEO</span> 
@@ -197,6 +230,6 @@ Good that you asked! If you are interested in participating on the Ovation Summe
             <span style="font-size: 120%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies GmbH</a></span>
             <br> <span style="font-size: 110%;">Sponsor</span>
     </th>
-    <th></th>
+
 </tr>
 </table>
