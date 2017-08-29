@@ -17,7 +17,7 @@ excerpt: "The MindGarage and Insiders Technologies GmbH are working on Conversat
 
 # **What is Ovation Summer Academy alpha (OSA-alpha)?**
 
-The MindGarage and Insiders Technologies GmbH are working on Conversational Intelligence (CI) to make machines understand Natural Language as well as humans do. CI includes Chat-Bots to core modules like Named Entity Recognition, Intent Classification, Visual Question Answering, Question Answering and Reasoning, etc.. We deal with all these challenging tasks in our everyday work. To give Conversational Intelligence a lateral perspective and to figure out fresh solutions for them, we are bringing together computer scientists from all around Europe to what we call the **Ovation Summer Academy alpha** (OSA-alpha). The goal is to come up with innovative ideas to tackle the challenges in Conversational Intelligence, work as a team, program like there is no tomorrow, and build Jarvis by the end (or at least try to :-P). This is a pre announcement for the Ovation Summer Academy alpha. The official announcement will be made tomorrow on the <a href="mindgarage.ai" target="_blank">MindGarage</a> homepage.
+The MindGarage and Insiders Technologies GmbH are working on Conversational Intelligence (CI) to make machines understand Natural Language as well as humans do. CI includes Chat-Bots to core modules like Named Entity Recognition, Intent Classification, Visual Question Answering, Question Answering and Reasoning, etc.. We deal with all these challenging tasks in our everyday work. To give Conversational Intelligence a lateral perspective and to figure out fresh solutions for them, we are bringing together computer scientists from all around Europe to what we call the **Ovation Summer Academy alpha** (OSA-alpha). The goal is to come up with innovative ideas to tackle the challenges in Conversational Intelligence, work as a team, program like there is no tomorrow, and build Jarvis by the end (or at least try to :-P).
 
 If you want to quickly apply for the OSA-alpha, you can do it <a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>.
 
@@ -27,7 +27,7 @@ If you want to quickly apply for the OSA-alpha, you can do it <a href="https://g
  * #### **What**: Ovation Summer Academy alpha
  * #### **When**: 18/09/2017 till 22/09/2017
  * #### **Where**: Berlin, Germany
- * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017**
+ * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017** (a one-page cv is required to be uploaded)
  * #### **Registration Fees**: **None**
  * #### **Costs for the hotel, rooms, food, social events, and (some) drinks will be covered by Insiders Technologies**
  * #### **Tentative Schedule**: [here](https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/41685273735b522bcdaa0603d087aa61/schedule.pdf)
