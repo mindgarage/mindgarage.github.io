@@ -86,7 +86,7 @@ members:
         url: mailto:dash.ayushman.99@gmail.com
   - name: John Gamboa
     position: MS - Computer Science
-    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.
+    text: I am a learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.
     img: john_team.jpg
     social:
       - title: envelope #use for email address
@@ -202,6 +202,22 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:ashutosh@cs.uni-kl.de
+  - name: Shailza Jolly
+    position: MS - Computer Science
+    text: I am glad to be a part of this lab where I got chance to dive deeply in area of Deep Learning. A place full of opportunities and learnings.
+    img: shailza_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:shailzajolly@gmail.com
+  - name: Asif Irfan
+    position: MS - Computer Science
+    text: MindGarage provides an opportunity to explore Deep Learning by providing the infrastructure as well as a forum for discussion of new aand exciting ideas.
+    img: asif_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:asif.irfan01@gmail.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/asif-irfan-1444b335/
         
 # Supporters information. Shown on About page.
 supporters:
