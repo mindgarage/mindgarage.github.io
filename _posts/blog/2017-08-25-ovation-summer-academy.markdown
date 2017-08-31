@@ -30,7 +30,7 @@ If you want to quickly apply for the OSA-alpha, you can do it <a href="https://g
  * #### **Where to Register**: **<a href="https://goo.gl/forms/2SUbIT4wm03RL8DC3" target="_blank">here</a>** till **01/09/2017** (a one-page cv is required to be uploaded)
  * #### **Registration Fees**: **None**
  * #### **Costs for the hotel, rooms, food, social events, and (some) drinks will be covered by Insiders Technologies**
- * #### **Tentative Schedule**: [here](https://mg-git.cs.uni-kl.de/mg-admin/OSA-alpha/uploads/41685273735b522bcdaa0603d087aa61/schedule.pdf)
+ * #### **Tentative Schedule**: [here](https://chalelele.files.wordpress.com/2017/08/schedule.pdf)
 <br>
 
 # **Participation Requirements**
