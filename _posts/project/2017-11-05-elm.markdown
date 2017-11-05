@@ -1,0 +1,34 @@
+---
+layout: project
+title:  "Real-Time Document Image Classification using Deep CNN and Extreme Learning Machines"
+date:   2017-11-05 13:38:58
+author:  Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki
+categories:
+- project
+- document classification
+- deep learning architectures
+img: elm.png
+thumb: elm.png
+tagged: AlexNet, GoogLeNet, VGGNet, document classification, transfer learning
+client:
+website: 
+---
+Abstract—This paper presents an approach for real-time
+training and testing for document image classification. In pro-
+duction environments, it is crucial to perform accurate and
+(time-)efficient training. Existing deep learning approaches for
+classifying documents do not meet these requirements, as they
+require much time for training and fine-tuning the deep architec-
+tures. Motivated from Computer Vision, we propose a two-stage
+approach. The first stage trains a deep network that works as
+feature extractor and in the second stage, Extreme Learning Ma-
+chines (ELMs) are used for classification. The proposed approach
+outperforms all previously reported structural and deep learning
+based methods with a final accuracy of 83.24 % on Tobacco-
+3482 dataset, leading to a relative error reduction of 25 %
+when compared to a previous Convolutional Neural Network
+(CNN) based approach (DeepDocClassifier). More importantly,
+the training time of the ELM is only 1.176 seconds and the
+overall prediction time for 2, 482 images is 3.066 seconds. As
+such, this novel approach makes deep learning-based document
+classification suitable for large-scale real-time applications.
