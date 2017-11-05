@@ -13,7 +13,7 @@ tagged: AlexNet, GoogLeNet, VGGNet, document classification, transfer learning
 client:
 website: 
 ---
-Abstract—This paper presents an approach for real-time
+This paper presents an approach for real-time
 training and testing for document image classification. In pro-
 duction environments, it is crucial to perform accurate and
 (time-)efficient training. Existing deep learning approaches for
