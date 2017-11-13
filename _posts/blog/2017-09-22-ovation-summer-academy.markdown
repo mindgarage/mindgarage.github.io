@@ -16,7 +16,7 @@ excerpt: "We just finished a great event in Berlin. The Ovation Summer Academy (
 We just finished a great event in Berlin. The Ovation Summer Academy (OSA) 2017 was much more successful then ever expected. In this combined research exchange & hackathon event, 30 highly motivated open-minded researchers, students, and members from industry met in the Backfabrik in Berlin and generated six proof of concepts for Conversational AI.  Impressions from the Event can be seen in the following video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gY_2gPyWVTg" frameborder="0" allowfullscreen></iframe>
 
-# **What is Ovation Summer Academy alpha (OSA-alpha)?**
+# **What is Ovation Summer Academy (OSA)?**
 
 The MindGarage and Insiders Technologies GmbH are working on Conversational Intelligence (CI) to make machines understand Natural Language as well as humans do. CI includes Chat-Bots to core modules like Named Entity Recognition, Intent Classification, Visual Question Answering, Question Answering and Reasoning, etc. We deal with all these challenging tasks in our everyday work. To give Conversational Intelligence a lateral perspective and to figure out fresh solutions for them, we brought together computer scientists from all around Europe to OSA 2017.
 
