@@ -18,7 +18,8 @@ thumb: blog_thumb.png
 
 With the MindStorm Open Research Forum, the MindGarage wants to offer a platform for OpenMinded researchers and practicioners from uni & industry to present, discuss, and exchange their ideas. 
 Anyone who likes can present and share their ideas and post open problems & issues. Small food and beverages will be provided with the support of Insiders Technologies.
-
+Stay updated with all the news by following the 
+<a href="https://www.facebook.com/events/346701135850291/">MindStorm Facebook Event Page</a>.
 
 See you there,
 
