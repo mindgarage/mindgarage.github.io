@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mindstorm
 title: "Welcome to the MindStorm Open Research Forum!"
 date: 2018-03-15 22:06:46
 author: Kumar Shridhar
