@@ -75,8 +75,17 @@ members:
         url: https://www.linkedin.com/in/muhammad-zeshan-afzal-7a8148105
       - title: envelope #use for email address
         url: mailto:afzal@iupr.com
+  - name: Kumar Shridhar
+    position: Research Assistant MindGarage
+    text: MindGarage is full of smart people and it's good to be around smart people. Contact me for any questions about MindGarage.
+    img: shridhar_team.jpg
+    social:
+      - title: fa-link
+        url: https://kumar-shridhar.github.io/
+      - title: envelope #use for email address
+        url: mailto:shridhar.stark@gmail.com
   - name: Ayushman Dash
-    position: MS - Computer Science
+    position: Researcher - Insiders Technologies Berlin
     text: love for applications of Artificial Intelligence, music and audio production drive me.
     img: ayush_team.jpg
     social:
@@ -85,7 +94,7 @@ members:
       - title: envelope #use for email address
         url: mailto:dash.ayushman.99@gmail.com
   - name: John Gamboa
-    position: MS - Computer Science
+    position: PhD - Linguistics
     text: I am a learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.
     img: john_team.jpg
     social:
@@ -99,7 +108,7 @@ members:
       - title: envelope #use for email address
         url: mailto:romani@iupr.com
   - name: Dominik Bermühler
-    position: Bachelors - Computer Science
+    position: MS - Computer Science
     text: For me as a student, the MindGarage offers an awesome startup-like environment where I can discuss and learn about the latest ideas in the field of Deep Learning.
     img: dominik.jpg
     social:
@@ -114,6 +123,15 @@ members:
         url: https://www.linkedin.com/in/amit-sahu-90975212
       - title: envelope #use for email address
         url: mailto:amit.sahu89@gmail.com
+  - name: Saurabh Varshneya
+    position: MS - Computer Science
+    text: MingGarage is full of open minded researchers. 
+    img: saurabh_team.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/saurabh-varshneya-0264681a/
+      - title: envelope #use for email address
+        url: mailto:saurabh.varsh@gmail.com
   - name: Manabendra Saha
     position: MS - Computer Science
     text: I like changes and change is the only thing constant in my life.
@@ -123,6 +141,15 @@ members:
         url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
       - title: envelope #use for email address
         url: mailto:amit.sahu89@gmail.com
+  - name: Abhash Sinha
+    position: MS - Computer Science
+    text: MingGarage gives an opportunity to collaborate with other like minded people in different projects. 
+    img: abhash_team.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/abhash-sinha-65b42439/
+      - title: envelope #use for email address
+        url: mailto:abhash_sinha@hotmail.com
   - name: Vinay Chandran Pondenkandath
     position: MS - Computer Science
     text: Hello I am Vinay.</br></br></br>
@@ -146,6 +173,13 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:a.koelsch@insiders-technologies.de
+  - name: Ashutosh Mishra
+    position: MS - Computer Science
+    text: When all my friends party on Fridays, I secretly train my models in MindGarge.
+    img: ashu_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:ashutosh@cs.uni-kl.de
   - name: Vitor Fortes Rey
     position: Phd candidate at Uni Kaiserslautern / working at DFKI
     text: For me the MindGarage is a place where interesting ideas can meet capable people and hardware.
@@ -160,6 +194,15 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:p_shankar15@cs.uni-kl.de
+  - name: Purvanshi Mehta
+    position: Bachelors - Computer Science
+    text: MindGarage has super cool GPUs and who does not loves GPUs. 
+    img: purvanshi_team.jpg
+    social:
+      - title: fa-link
+        url: http://purvanshi.github.io
+      - title: envelope #use for email address
+        url: mailto:purumehta69@gmail.com
   - name: Rajveer Shringi
     position: MS - Computer Science
     text: Trying to make this world a better place to live, one day at a time. 
@@ -195,13 +238,6 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:s_dey16@cs.uni-kl.de
-  - name: Ashutosh Mishra
-    position: MS - Computer Science
-    text: Go Deep Learning :)
-    img: amishra.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:ashutosh@cs.uni-kl.de
   - name: Shailza Jolly
     position: MS - Computer Science
     text: I am glad to be a part of this lab where I got chance to dive deeply in area of Deep Learning. A place full of opportunities and learnings.
@@ -266,5 +302,7 @@ testimonial:
     message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and havining fun is what MindGarage is all about."
     author: Ayushman Dash
     position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
-    author2: Marcus Liwicki
-    position2: apl. Prof. at the University of Kaiserslautern / Head of MindGarage
+    author2: Kumar Shridhar
+    position2: Research Assistant - MindGarage
+    author3: Marcus Liwicki
+    position3: apl. Prof. at the University of Kaiserslautern / Head of MindGarage
