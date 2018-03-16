@@ -44,12 +44,12 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Rooms 36-(307/309/310),
-    - TU Kaiserslautern,
-    - Paul-Ehrlich-Str. 36,
+    - Building 86,
+    - Davenport 11,
     - 67663 Kaiserslautern,
     - Germany
-email: liwicki@cs.uni-kl.de 
+email: liwicki@cs.uni-kl.de (Head)
+email: k_shridhar16@cs.uni-kl.de (Research Assistant)
 tel: better write a mail ;)
 
 
