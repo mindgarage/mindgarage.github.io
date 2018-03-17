@@ -230,6 +230,13 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:soshi0928@gmail.com
+  - name: Sadique Siddiqui
+    position: MS - Computer Science
+    text: I am learning new things everyday at MindGarage. 
+    img: sadique_team.jpg
+    social:
+      - title: linkedin #use for email address
+        url: https://www.linkedin.com/in/sadique-adnan-siddiqui-25982770/
   - name: Surajit Dey
     position: MS - Computer Science
     text: I want to be a part of Mind Garage because I want to explore the interesting and innovative ideas shared by the Mind Garage Team and at the same time learn about new State of The Art architectures and models that could be implemented in our own projects.
@@ -298,7 +305,7 @@ about: "We believe that creativity comes with freedom and to solve challenging p
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and havining fun is what MindGarage is all about."
+    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and having fun is what MindGarage is all about."
     author: Ayushman Dash
     position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
     author2: Marcus Liwicki
