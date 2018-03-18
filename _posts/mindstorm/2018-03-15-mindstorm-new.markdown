@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to the MindStorm Open Research Forum!"
 date: 2018-03-15 23:06:46
-author: Baba
+author: Kumar Shridhar
 categories:
 - mindstorm
 img: pic2.jpg
