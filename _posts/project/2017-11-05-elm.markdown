@@ -11,7 +11,7 @@ img: elm.png
 thumb: elm.png
 tagged: AlexNet, GoogLeNet, VGGNet, document classification, transfer learning
 client:
-website: 
+website: https://arxiv.org/abs/1711.05862
 ---
 This paper presents an approach for real-time
 training and testing for document image classification. In pro-
