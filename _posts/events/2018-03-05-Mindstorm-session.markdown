@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "MindStorm Open Research Forum Session "
-date: 2018-03-05 15:56:00
-estart: 2018-03-19 18:00:00
-eend: 2018-03-19 19:00:00
+date: 2018-04-23 15:56:00
+estart: 2018-04-23 18:00:00
+eend: 2018-04-23 19:00:00
 author: Marcus Liwicki
 categories:
 - event

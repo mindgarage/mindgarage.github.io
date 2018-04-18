@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New MindStorm Open Research Session!"
+title: "MindStorm Open Research Session: 19th March!"
 date: 2018-03-19 13:08:46
 author: Kumar Shridhar
 categories:
@@ -9,9 +9,23 @@ img: pic1.jpg
 thumb: pic1.jpg
 
 ---
+### **Session Highlights**
 
-A new MindStorm session will be there on Monday 19th March, 2018 starting at 18:00 EST at MindGarage. Anyone who likes can present and share their ideas and post open problems & issues. Small food and beverages will be provided with the support of Insiders Technologies.
+**1. AI for Natural Language Processing**
 
-With the MindStorm Open Research Forum, the MindGarage wants to offer a platform for OpenMinded researchers and practicioners from University & industry to present, discuss, and exchange their ideas.
+1. At the Mindstorm session, we started with a discussion about the upcoming hackathon. The hackathon will start on Friday, 27th April at Mindgarage and the results will be announced on Sunday, 29th April at 12:00 pm EST.
+<br>
+2. Marcus Liwicki shared some insights about the data and how and when the Hackathon will be organized. 
+<br>
+3. Some papers were discussed by <a href="https://kumar-shridhar.github.io/" target="_blank">Kumar Shridhar</a> :
+
+	- <a href="https://arxiv.org/abs/1802.03308" target="_blank">Predictive Neural Networks </a> : where the authors showed that linearly activated recurrent neural networks can approximate any time-dependent function f(t) given by a number of function values. The approximation can effectively be learned by simply solving a linear equation system; no backpropagation or similar methods are needed. 
+
+	- <a href="https://arxiv.org/pdf/1605.07969.pdf" target="_blank">Adaptive Neural Compilation </a> : where the authors showed that it is possible to compile programs written in a low-level language to a differentiable representation. 
+<br>
+4. <a href="https://www.mendeley.com/guides/desktop" target="_blank"> Mendeley Desktop </a>: A very useful application to keep and store all the research papers was discussed by <a href="https://kumar-shridhar.github.io/" target="_blank">Kumar Shridhar</a>. 
+<br>
+5. Finally, the session ended with a topic presentation on 'Multi Modal learning' by Saurabh Varshneya. 
+
 
 
