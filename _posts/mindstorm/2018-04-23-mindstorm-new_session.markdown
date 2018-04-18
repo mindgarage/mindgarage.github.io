@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New MindStorm Open Research Session!"
-date: 2018-03-23 13:08:46
+date: 2018-04-23 13:08:46
 author: Kumar Shridhar
 categories:
 - mindstorm
