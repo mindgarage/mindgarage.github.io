@@ -9,9 +9,8 @@ img: pic1.jpg
 thumb: pic1.jpg
 
 ---
-### **Session Highlights**
 
-**1. AI for Natural Language Processing**
+### **Session Highlights**
 
 1. At the Mindstorm session, we started with a discussion about the upcoming hackathon. The hackathon will start on Friday, 27th April at Mindgarage and the results will be announced on Sunday, 29th April at 12:00 pm EST.
 <br>
