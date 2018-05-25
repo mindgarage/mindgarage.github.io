@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Bidirectional Learning for Robust Neural Networks"
-date:   2018-22-05 14:17:40
+date:   2018-05-22 14:17:40
 author:  Sidney Pontes-Filho, Marcus Liwicki
 categories:
 - project
