@@ -106,6 +106,13 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:romani@iupr.com
+  - name: Sidney Pontes-Filho
+    position: MS - Computer Science
+    text:  I am experimenting with new technologies at Mindgarage and I love it. 
+    img: sidney_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:spontes@rhrk.uni-kl.de
   - name: Dominik Bermühler
     position: MS - Computer Science
     text: For me as a student, the MindGarage offers an awesome startup-like environment where I can discuss and learn about the latest ideas in the field of Deep Learning.
