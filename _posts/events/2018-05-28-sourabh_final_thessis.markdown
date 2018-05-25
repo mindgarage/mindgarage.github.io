@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Final Master Thesis Presentation of Sourabh Parkala"
-date: 2017-03-01 19:02:00
+date: 2018-05-22 19:02:00
 estart: 2018-05-28 13:00:00
 eend: 2018-05-28 13:45:00
 author: Marcus Liwicki

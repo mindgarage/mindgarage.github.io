@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Final Master Thesis Presentation of Sidney Pontes-Filho"
-date: 2017-03-01 19:02:00
+date: 2018-05-22 19:02:00
 estart: 2018-05-30 08:00:00
 eend: 2018-05-30 08:45:00
 author: Marcus Liwicki
