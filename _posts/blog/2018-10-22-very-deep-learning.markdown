@@ -1,11 +1,13 @@
 ---
-layout: question
+layout: post
 title: "Very Deep Learning WS2018/2019"
 date: 2018-10-22 16:54:46
 author: Andreas Kölsch
 categories:
 - blog
 - teaching
+img: mg_logo_long_high.jpg
+thumb: blog_thumb.png
 
 ---
 
