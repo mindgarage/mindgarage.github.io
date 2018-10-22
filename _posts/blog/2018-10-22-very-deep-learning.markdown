@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: question
 title: "Very Deep Learning WS2018/2019"
 date: 2018-10-22 16:54:46
 author: Andreas Kölsch
