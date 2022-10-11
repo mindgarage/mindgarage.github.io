@@ -13,17 +13,47 @@ permalink: /:categories/:year-:month-:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 # better search engine indexing
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Include _pages folder
+include: ["_pages"]
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
+  link: "#039be5"
+  link_hover: "#546e7a"
+  primary: "#90cdff"
+  on_primary: "#003350"
+  primary_container: "#004b72"
+  on_primary_container: "#cbe6ff"
+  secondary: "#b8c8d9"
+  on_secondary: "#22323f"
+  secondary_container: "#394856"
+  on_secondary_container: "#d4e4f6"
+  tertiary: "#d1bfe7"
+  on_tertiary: "#372b4a"
+  tertiary_container: "#4e4162"
+  on_tertiary_container: "#ecdcff"
+  error: "#ffb4ab"
+  error_container: "#93000a"
+  on_error: "#690005"
+  on_error_container: "#ffdad6"
+  background: "#1a1c1e"
+  on_background: "#e2e2e5"
+  surface: "#1a1c1e"
+  surface_rgb: "26, 28, 30" # Needed in some places for the transparency effect.
+  on_surface: "#e2e2e5"
+  surface_variant: "#42474d"
+  on_surface_variant: "#c1c7ce"
+  outline: "#8c9198"
+  inverse_on_surface: "#1a1c1e"
+  inverse_surface: "#e2e2e5"
+  inverse_primary: "#006496"
+  shadow: "#000000"
+  surface_tint: "#90cdff"
+  surface_tint_color: "#90cdff"
 
 
 ### CONTACT SETTINGS ###
@@ -44,9 +74,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Building 86,
-    - Davenport 11,
-    - 67663 Kaiserslautern,
+    - Gottlieb-Daimler-Str. 48 (48-462),
+    - 67663 Kaiserslautern
     - Germany
 email: liwicki@cs.uni-kl.de 
 tel: better write a mail ;)
@@ -304,16 +333,10 @@ supporters:
 partners:
   - name: Insiders Technologies
     img: insidersLogo.png
+    url: https://insiders-technologies.de
   - name: TU Kaiserslautern
     img: tukl_logo.png
+    url: https://www.uni-kl.de
 
 # Short text about your Lab. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
-
-# Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and having fun is what MindGarage is all about."
-    author: Ayushman Dash
-    position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
-    author2: Marcus Liwicki
-    position2: apl. Prof. at the University of Kaiserslautern / Head of MindGarage

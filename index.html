@@ -4,58 +4,105 @@ title: Home
 permalink: /
 ---
 
-<div id="service">
+<!-- Header -->
+<div id="service" class="primary-container">
     <div class="container">
         <div class="row centered">
             <div class="col-md-12">
-                <i class="fa fa-user"></i>
                 <h2>The lab for Deep Learning activities with Marcus Liwicki.</h2>
                 <p style="font-size: 15px;">The Ovation MindGarage is an independent "lab" under the guidance of <a href=" http://blog.mindgarage.de/liwicki/" target="_blank" >Marcus Liwicki</a>. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture "Very Deep Learning", his supervised projects and theses, and individual studies.</p>
-                <p style="font-size: 15px;">In this website we will put information about the research projects conducted at the Ovation MindGarage, as well as, relevant information about the infrastructure mainly sponsored by <a href="http://insiders-technologies.de/" target="_blank" >Insiders Technologies GmbH.</p>
-                <p><br/><a href="team" class="btn btn-theme" target="_blank">More Info</a></p>
+                <p style="font-size: 15px;">
+                    In this website we will put information about the research projects conducted at the Ovation MindGarage, as well as, relevant information about the infrastructure mainly sponsored by 
+                    <a href="http://insiders-technologies.de/" target="_blank" >
+                        Insiders Technologies GmbH.
+                </p>
+                <p>
+                <a href="projects" class="btn btn-primary">EXPLORE PROJECTS</a>
+                <a href="team" class="btn btn-secondary">OUR TEAM</a>
+                </p>
             </div>
-            
         </div>
-    </div><! --/container -->
-</div><! --/service -->
+    </div> <! --/container -->
+</div> <! --/service -->
 
-<div class="container mtb">
+<div class="container mb">
+    <!-- Research | Updates -->
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-        <!--
-            <h4>More About MindGarage.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/team/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-            -->
-            <h4>Upcoming and Latest Events</h4>
-            <div class="hline"></div>
-            <ul class="popular-posts">
-                {% for post in site.categories['event'] limit:5 %} 
-                <li style="min-height: 0px;">
-                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                    <em>Starts at: {{ post.estart | date: "%B %d - %Y, %H:%M" }}</em><br>
-                    <em>Ends at: {{ post.eend | date: "%B %d - %Y, %H:%M" }}</em>
-                </li>
-                {% endfor %}
-            </ul>
+        <div class="col-lg-8 col-md-4">
+            {% include portfolio.html title="Recent Research" limit=10 %}
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
         </div>
-
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
-
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
+        <div class="col-lg-4 col-md-4 mt">
+            <div class="row mt">
+                <h4>Latest News &nbsp; <a href="feed.xml"><span class="fa fa-rss"></span></a></h4>
+                <div class="hline"></div>
+                {% for post in site.categories['blog'] limit:5 %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
+                {% endfor %} 
+            </div>
+            <div class="row mt">
+                <h4>Event Calendar</h4>
+                <div class="hline"></div>
+                <ul class="popular-posts">
+                    {% for post in site.categories['event'] limit:5 %} 
+                    <li style="min-height: 0px;">
+                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                        {% assign time_diff = post.eend | minus: post.estart %}
+                        <em>{{ post.estart | date: "%Y.%m.%d %H:%M" }} - {{ post.eend | date: "%Y.%m.%d %H:%M" }}</em>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
+    </div> <! --/row -->
 
-    </div><! --/row -->
+    <!-- Blockquote -->
+    <div class="row mtb">
+        <div class="col-lg-8 col-lg-offset-2">
+            <blockquote>MindGarage is a family where curious minds come together to solve deep learning problems and discuss ideas.</blockquote>
+        </div>
+    </div> <! --/row -->
+
+    <!-- History -->
+    <div id="twrap">
+        <div id="twrapback"></div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Our History</h4>
+                <p><a href="history">How did MindGarage start?</a></p>
+
+            </div>
+        </div>
+        <! --/row -->
+    </div><! --/twrap -->
+
+    <!-- FAQs -->
+    <div class="faqs row mt">
+        <div class="col-lg-12">
+            <h4>Frequently Asked Questions</h4>
+            <div class="hline"></div>
+            <details>
+                <summary>What is the MindGarage?</summary>
+                <p>The MindGarage is a lab for deep learning activities under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture "Very Deep Learning", his supervised projects and theses, and individual studies.</p>
+            </details>
+
+            <details>
+                <summary>What is the purpose of the MindGarage?</summary>
+                <p>The purpose of the MindGarage is to provide a platform for students and researchers to conduct research in the area of deep learning. The MindGarage is also a place where students can meet and discuss ideas.</p>
+            </details>
+
+            <details>
+                <summary>How can I become a part of the MindGarage team?</summary>
+                <p>If you are a student at the University of Kaiserslautern, it is quite simple: Take the <b>Very Deep Learning</b> lecture offered at the university and tell us you want to join our team. Our doors are open for highly motivated students who want to do cutting edge deep learning research.</p>
+            </details>
+
+            <details>
+                <summary>How can I join MindGarage if I am not a student of TU Kaiserslautern?</summary>
+                <p>Contact us with resume and cover letter containing your motivation for joining the team and we will get in touch with you.</p>
+            </details>
+        </div>
+    </div> <! --/row -->
 </div><! --/container -->
-{% include portfolio.html title="LATEST WORKS" limit=10 %}

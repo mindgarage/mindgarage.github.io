@@ -1,2 +1,11 @@
-_site
+# IntelliJ / VSCode
 .idea/
+.vscode/
+
+# Jekyll
+_site
+.jekyll-cache/
+Gemfile.lock
+
+# OS files
+.DS_Store

@@ -6,16 +6,12 @@ layout: default
 
 <div class="container mt">
     <div class="row">
-
         {% include carousel.html %}
-
-        <div class="col-lg-5 col-lg-offset-1">
+        <div class="col-lg-8 col-md-7">
             <div class="spacing"></div>
-
             {{ content }}
-
         </div>
-        <div class="col-lg-4 col-lg-offset-1">
+        <div class="col-lg-4 col-md-5">
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
@@ -23,12 +19,14 @@ layout: default
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
-
         </div>
-    </div><! --/row -->
-    <div><!-- image-->
+    </div> <! --/row -->
+
+    <!-- Cover Photo -->
+    <div>
         <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}" alt="">
     </div>
-</div><! --/container -->
 
-{% include portfolio.html title="Related Works." limit=5 %}
+</div> <! --/container -->
+
+{% include portfolio.html title="Related Projects" limit=5 %}
