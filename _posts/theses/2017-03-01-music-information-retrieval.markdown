@@ -4,7 +4,7 @@ title:  "Music Information Retrieval"
 date:   2017-03-01 12:00:00
 author: Ganesh Harugeri
 categories:
-- project
+- thesis
 - music information retrieval
 img: music-sound-audio-controls.jpg
 thumb: music-sound-audio-controls.jpg

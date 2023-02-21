@@ -12,6 +12,7 @@ carousel:
 tagged: Visualisation, IMU, sensors, Myo, gesture-recognition
 client: 
 website: https://github.com/sigvoiced/pewter
+status: completed
 ---
 ### What is Pewter?
 **Pewter** is an open-source project for <br/><br/>

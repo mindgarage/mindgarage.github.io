@@ -4,7 +4,7 @@ title:  "Transforming Sensor Data to the Image Domain for Deep Learning - an App
 date:   2017-01-04 12:00:00
 author: Monit Shah Singh, Vinaychandran Pondenkandath, Bo Zhou, Paul Lukowicz, Marcus Liwicki
 categories:
-- project
+- publication
 - footstep detection
 - transfer learning
 img: footstep.png
@@ -12,6 +12,7 @@ thumb: footstep.png
 tagged: footstep detection, transfer learing, sensor data
 client:
 website: https://arxiv.org/abs/1701.01077
+type: conference
 ---
 Convolutional Neural Networks (CNNs) have become
 the state-of-the-art in various computer vision tasks, but

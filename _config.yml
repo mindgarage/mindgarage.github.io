@@ -42,7 +42,7 @@ colors:  #in hex code if not noted else
   on_error_container: "#ffdad6"
   background: "#1a1c1e"
   on_background: "#e2e2e5"
-  surface: "#1a1c1e"
+  surface: "#2a2c2e"
   surface_rgb: "26, 28, 30" # Needed in some places for the transparency effect.
   on_surface: "#e2e2e5"
   surface_variant: "#42474d"
@@ -77,7 +77,7 @@ address:
     - Gottlieb-Daimler-Str. 48 (48-462),
     - 67663 Kaiserslautern
     - Germany
-email: liwicki@cs.uni-kl.de 
+email: liwicki@cs.uni-kl.de
 tel: better write a mail ;)
 
 
