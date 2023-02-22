@@ -4,29 +4,36 @@ layout: default
 
 {% include wrap.html %}
 
-<div class="container mt">
+<div class="container">
     <div class="row">
         {% include carousel.html %}
-        <div class="col-lg-8 col-md-7">
-            <div class="spacing"></div>
-            {{ content }}
+
+        <div class="col-lg-8 col-md-7 mdc-card mt">
+            <div class="mdc-card__content">
+
+                {{ content }}
+
+                <!-- Cover Photo -->
+                <div>
+                    <img src="{{ " /assets/img/project/" | prepend: site.baseurl }}{{ page.img }}" alt="">
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-5">
-            <div class="spacing"></div>
+
+        <div class="col-lg-4 col-md-5 mt">
             <h4>Project Details</h4>
             <div class="hline"></div>
-            <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p>
+                <b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}<br>
+                <b>Author:</b> {{ page.author }}<br>
+                <b>Tags:</b> 
+                {% for tag in page.tagged %}
+                    <a href="{{ "/category/#" | prepend: site.baseurl }}{{ tag }}">{{ tag }}</a>
+                {% endfor %}<br>
+                <b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a>
+            </p>
+
+            {% include projects.html title="Related Projects" status="all" limit=5 %}
         </div>
-    </div> <! --/row -->
-
-    <!-- Cover Photo -->
-    <div>
-        <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}" alt="">
     </div>
-
-</div> <! --/container -->
-
-{% include publications.html title="Related Projects" limit=5 %}
+</div>

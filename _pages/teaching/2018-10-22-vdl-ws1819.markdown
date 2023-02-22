@@ -4,7 +4,7 @@ title: "Very Deep Learning"
 date: 2018-10-22 16:54:46
 author: Andreas Kölsch
 categories:
-- courses
+- teaching
 img: mg_logo_long_high.jpg
 thumb: blog_thumb.png
 semester: Winter Semester 2018/2019

@@ -3,8 +3,7 @@ layout: project
 title:  "Pewter"
 date:   2016-10-02 11:00:00
 author: Ayushman Dash, Amit Sahu
-categories:
-- project
+categories: project
 img: pewter.png
 thumb: pewter.png
 carousel:
@@ -13,6 +12,7 @@ tagged: Visualisation, IMU, sensors, Myo, gesture-recognition
 client: 
 website: https://github.com/sigvoiced/pewter
 status: completed
+permalink: /projects/pewter/
 ---
 ### What is Pewter?
 **Pewter** is an open-source project for <br/><br/>

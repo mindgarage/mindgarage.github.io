@@ -1,36 +1,29 @@
-<div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">And Our Supporters</h3>
-    </div>
-
-    {% for supporter in site.supporters %}
-    {% assign modulo = forloop.index0 | modulo:4 %}
-    {% if modulo == 0 or forloop.first %}
-    <div class="row centered">
+{% for supporter in site.supporters %}
+{% assign modulo = forloop.index0 | modulo:4 %}
+{% if forloop.first %}
+<div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
         {% endif %}
+        <div
+            class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-phone">
+            <div class="mdc-card__content mdc-card__primary-action">
+                <div class="mdc-card__media mdc-card__media--square" style="background-image: url({{ "
+                    /assets/img/members/" | prepend: site.baseurl }}{{ supporter.img }});">
+                </div>
+                <h4>{{ supporter.name }}</h4>
+                <div style="position: relative; top: -16px;">
+                    <h5 class="ctitle">{{ supporter.position }}</h5>
+                    {% for entry in supporter.social %}
+                    <a href="{{ entry.url }}" style="position: relative; top: -16px;"><i
+                            class="fa fa-{{ entry.title }}"></i></a>
+                    {% endfor %}
+                </div>
+                <span>{{ supporter.text }}</span>
+            </div>
+        </div>
 
-
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ supporter.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in supporter.social %}
-                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>{{ supporter.name }}</h4>
-            <h5 class="ctitle">{{ supporter.position }}</h5>
-            <p>{{ supporter.text }}</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->
-
-        {% if modulo == 3 or forloop.last %}
-    </div><! --/row -->
-    {% endif %}
-    {% endfor %}
-
-</div><! --/container -->
+        {% if forloop.last %}
+    </div>
+</div>
+{% endif %}
+{% endfor %}
