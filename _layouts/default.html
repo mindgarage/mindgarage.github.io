@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-
     {% include head.html %}
-
     <body>
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
         {% include nav.html %}
+        </header>
 
-            {{ content }}
-
+        <main class="mdc-top-app-bar--fixed-adjust">
+        {{ content }}
         {% include footer.html %}
+        </main>
+
         {% include js.html %}
     </body>
 </html>

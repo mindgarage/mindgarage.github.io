@@ -1,0 +1,11 @@
+{% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+<ul class="mdc-list">
+    {% for project in site.categories['thesis'] limit:include.limit %}
+    <li class="mdc-card">
+        <div class="mdc-card__content">
+            <h3><a href="{{ project.website }}">{{ project.title }}</a></h3>
+            <span>{{ project.author }}</span>
+        </div>
+    </li>
+    {% endfor %}
+</ul><!-- portfolio -->

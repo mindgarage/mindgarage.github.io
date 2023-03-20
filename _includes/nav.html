@@ -1,24 +1,30 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
-    </div>
-    <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">Home</a></li>
-        <li {% if page.title == "Mindstorm" %}class="active"{% endif %}><a href="{{"/mindstorm/" | prepend: site.baseurl }}">Mindstorm</a></li>
-        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">Blog</a></li>
-        <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="{{"/projects/" | prepend: site.baseurl }}">Projects</a></li>
-        <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/team/" | prepend: site.baseurl }}">Team</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">Contact</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
+<div class="mdc-top-app-bar__row">
+  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+    <span class="mdc-top-app-bar__navigation-icon" aria-label="Site logo"
+      style="background-color: #f2f2f2aa; border-radius: 8px; padding: 8px;">
+      <a href="{{" /" | prepend: site.baseurl }}">
+        <img src="{{ " /assets/img/logo/mg_logo_long.png" | prepend: site.baseurl }}" alt="Site logo"
+          style="height: 32px;" />
+      </a>
+  </section>
+  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+    <ul class="nav navbar-nav">
+      {% for item in site.nav.main %}
+      <li {% if item.url==page.url %}class="active" {% endif %}>
+        {% if item.options %}
+        <a href="{{ item.url | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">{{ item.title }}
+          <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          {% for option in item.options %}
+          <li><a href="{{ option.url | prepend: site.baseurl }}">{{ option.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>

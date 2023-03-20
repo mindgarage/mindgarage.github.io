@@ -13,18 +13,45 @@ permalink: /:categories/:year-:month-:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 # better search engine indexing
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
+# Include _pages folder
+include: ["_pages"]
 
+### NAVIGATION ###
+nav:
+  main: # Main navigation
+    - title: "Blog"
+      url: /blog/
+      options:
+    - title: "Team"
+      url: /team/
+      options:
+    - title: "Teaching"
+      url: /teaching/
+      options:
+        - title : "Very Deep Learning"
+          url: /teaching/very-deep-learning/
+        - title: "Seminar and Projects"
+          url: /teaching/seminar-and-projects/
+        - title: "Theses"
+          url: /teaching/theses/
+    - title: "Events"
+      url: /events/
+      options:
+        - title: "Mindstorm"
+          url: /events/mindstorm/
+        - title: "Ovation Summer Academy"
+          url: /events/ovation-summer-academy/
+    - title: "Publications"
+      url: /publications/
+      options:
+    - title: "Contact"
+      url: /contact/
+      options:
 
 ### CONTACT SETTINGS ###
 
@@ -44,11 +71,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Building 86,
-    - Davenport 11,
-    - 67663 Kaiserslautern,
+    - Gottlieb-Daimler-Str. 48 (48-462),
+    - 67663 Kaiserslautern
     - Germany
-email: liwicki@cs.uni-kl.de 
+email: liwicki@cs.uni-kl.de
 tel: better write a mail ;)
 
 
@@ -57,8 +83,8 @@ tel: better write a mail ;)
 # Members information. Shown on About page.
 members:
   - name: Marcus Liwicki
+    type: alumni
     position: Head
-    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
     img: marcus_team.jpg
     social:
       - title: fa-link
@@ -66,8 +92,8 @@ members:
       - title: envelope #use for email address
         url: mailto:liwicki@cs.uni-kl.de
   - name: Muhammad Zeshan Afzal
+    type: faculty
     position: Co-founder
-    text: MindGarage is a workplace that allows me to convert creative ideas to real application by mentoring the whole process and motivating, inspiring, encouraging, and helping the students as well to explore the area to best of their abilities.
     img: shan_team.jpg
     social:
       - title: linkedin
@@ -75,8 +101,8 @@ members:
       - title: envelope #use for email address
         url: mailto:afzal@iupr.com
   - name: Kumar Shridhar
+    type: hiwi
     position: Research Assistant MindGarage
-    text: MindGarage is full of smart people and it's good to be around smart people. Contact me for any questions about MindGarage.
     img: shridhar_team.jpg
     social:
       - title: fa-link
@@ -84,8 +110,8 @@ members:
       - title: envelope #use for email address
         url: mailto:shridhar.stark@gmail.com
   - name: Ayushman Dash
+    type: faculty
     position: Researcher - Insiders Technologies
-    text: love for applications of Artificial Intelligence, music and audio production drive me.
     img: ayush_team.jpg
     social:
       - title: linkedin
@@ -93,36 +119,36 @@ members:
       - title: envelope #use for email address
         url: mailto:dash.ayushman.99@gmail.com
   - name: John Gamboa
+    type: phd
     position: PhD - Linguistics
-    text: I am a learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage.
     img: john_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:vaulttech@gmail.com 
   - name: Ingrid Romani
+    type: faculty
     position: Administrative
-    text:  I am glad to support the Mind Garage in all administrative aspects.
     img: ingrid_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:romani@iupr.com
   - name: Sidney Pontes-Filho
+    type: alumni
     position: MS - Computer Science
-    text:  I am experimenting with new technologies at Mindgarage and I love it. 
     img: sidney_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:spontes@rhrk.uni-kl.de
   - name: Dominik Bermühler
+    type: alumni
     position: MS - Computer Science
-    text: For me as a student, the MindGarage offers an awesome startup-like environment where I can discuss and learn about the latest ideas in the field of Deep Learning.
     img: dominik.jpg
     social:
       - title: envelope #use for email address
         url: mailto:d.bermuehler@insiders-technologies.de
   - name: Amit Sahu
+    type: alumni
     position: MS - Computer Science
-    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.
     img: amit_team.jpg
     social:
       - title: linkedin
@@ -130,8 +156,8 @@ members:
       - title: envelope #use for email address
         url: mailto:amit.sahu89@gmail.com
   - name: Saurabh Varshneya
+    type: alumni
     position: MS - Computer Science
-    text: MingGarage is full of open minded researchers. 
     img: saurabh_team.jpg
     social:
       - title: linkedin
@@ -139,8 +165,8 @@ members:
       - title: envelope #use for email address
         url: mailto:saurabh.varsh@gmail.com
   - name: Manabendra Saha
+    type: alumni
     position: MS - Computer Science
-    text: I like changes and change is the only thing constant in my life.
     img: mana_team.jpg
     social:
       - title: linkedin
@@ -148,8 +174,8 @@ members:
       - title: envelope #use for email address
         url: mailto:amit.sahu89@gmail.com
   - name: Abhash Sinha
+    type: alumni
     position: MS - Computer Science
-    text: MingGarage gives an opportunity to collaborate with other like minded people in different projects. 
     img: abhash_team.jpg
     social:
       - title: linkedin
@@ -157,8 +183,8 @@ members:
       - title: envelope #use for email address
         url: mailto:abhash_sinha@hotmail.com
   - name: Vinay Chandran Pondenkandath
+    type: alumni
     position: MS - Computer Science
-    text: Hello I am Vinay.</br></br></br>
     img: vinay_team.jpg
     social:
       - title: linkedin
@@ -166,43 +192,43 @@ members:
       - title: envelope #use for email address
         url: mailto:vinaychandranp@gmail.com
   - name: Johannes Freiermuth
+    type: alumni
     position: MS - Computer Science / student at Insiders Technologies GmbH
-    text: The MindGarage offers us students a very uncomplicated opportunity to run experiments which require the computational power of state of the art equipment.
     img: johannes_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:j.freiermuth@insiders-technologies.de
   - name: Andreas Kölsch
+    type: alumni
     position: MS - Computer Science / student at Insiders Technologies GmbH
-    text: To me the MindGarage is not only a lab which is equipped with excellent  hardware, but also a knowledge hub and a place for discussion. This makes it the perfect place to gain more insights into Deep Learning and AI in general.
     img: andreas_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:a.koelsch@insiders-technologies.de
   - name: Ashutosh Mishra
+    type: alumni
     position: MS - Computer Science
-    text: When all my friends party on Fridays, I secretly train my models in MindGarge.
     img: ashu_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:ashutosh@cs.uni-kl.de
   - name: Vitor Fortes Rey
+    type: phd
     position: Phd candidate at Uni Kaiserslautern / working at DFKI
-    text: For me the MindGarage is a place where interesting ideas can meet capable people and hardware.
     img: vitor_team.png
     social:
       - title: envelope #use for email address
         url: mailto:vitorrey@googlemail.com
   - name: Priyamvada Shankar
+    type: alumni
     position: MS - Computer Science / student at Bayer AG
-    text: For someone like me who is deeply interested in understanding various facets of AI and its numerous merits, MindGarage acts as a focal point, providing the infrastructure and atmosphere for like minded people to get together and transform ideas into reality.
     img: priyamvada_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:p_shankar15@cs.uni-kl.de
   - name: Purvanshi Mehta
+    type: alumni
     position: Bachelors - Computer Science
-    text: MindGarage has super cool GPUs and who does not loves GPUs. 
     img: purvanshi_team.jpg
     social:
       - title: fa-link
@@ -210,57 +236,57 @@ members:
       - title: envelope #use for email address
         url: mailto:purumehta69@gmail.com
   - name: Rajveer Shringi
+    type: alumni
     position: MS - Computer Science
-    text: Trying to make this world a better place to live, one day at a time. 
     img: raj.jpeg
     social:
       - title: envelope #use for email address
         url: mailto:rshringi@cs.uni-kl.de
   - name: Rajesh Chidambaram
+    type: alumni
     position: MS - Cognitive Science
-    text: MindGarage is the place to Deep learn ! 
     img: chiddu.jpg
     social:
       - title: envelope #use for email address
         url: mailto:chidamba@rhrk.uni-kl.de
   - name: Vikrant Singh
+    type: alumni
     position: MS - Computer Science
-    text: MindGarage is a cool place to do open minded research
     img: vsingh.jpg
     social:
       - title: envelope #use for email address
         url: mailto:vikrantsing1108@gmail.com
   - name: Soshi Shimada
+    type: alumni
     position: MS - Computer Science
-    text: I like to play with Deep Learning and I found a nice place with a lot of computational power.
     img: soshi.jpg
     social:
       - title: envelope #use for email address
         url: mailto:soshi0928@gmail.com
   - name: Sadique Siddiqui
+    type: alumni
     position: MS - Computer Science
-    text: I am learning new things everyday at MindGarage. 
     img: sadique_team.jpg
     social:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/sadique-adnan-siddiqui-25982770/
   - name: Surajit Dey
+    type: alumni
     position: MS - Computer Science
-    text: I want to be a part of Mind Garage because I want to explore the interesting and innovative ideas shared by the Mind Garage Team and at the same time learn about new State of The Art architectures and models that could be implemented in our own projects.
     img: sdey.jpg
     social:
       - title: envelope #use for email address
         url: mailto:s_dey16@cs.uni-kl.de
   - name: Shailza Jolly
+    type: alumni
     position: MS - Computer Science
-    text: I am glad to be a part of this lab where I got chance to dive deeply in area of Deep Learning. A place full of opportunities and learnings.
     img: shailza_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:shailzajolly@gmail.com
   - name: Asif Irfan
+    type: alumni
     position: MS - Computer Science
-    text: MindGarage provides an opportunity to explore Deep Learning by providing the infrastructure as well as a forum for discussion of new aand exciting ideas.
     img: asif_team.jpg
     social:
       - title: envelope #use for email address
@@ -304,16 +330,10 @@ supporters:
 partners:
   - name: Insiders Technologies
     img: insidersLogo.png
+    url: https://insiders-technologies.de
   - name: TU Kaiserslautern
     img: tukl_logo.png
+    url: https://www.uni-kl.de
 
 # Short text about your Lab. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
-
-# Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and having fun is what MindGarage is all about."
-    author: Ayushman Dash
-    position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
-    author2: Marcus Liwicki
-    position2: apl. Prof. at the University of Kaiserslautern / Head of MindGarage

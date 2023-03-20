@@ -1,27 +1,44 @@
 <div id="footerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6 col-md-6">
                 <h4>About</h4>
-                <div class="hline-w"></div>
+                <div class="hline"></div>
                 <p>{{ site.about }}</p>
             </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <h4>Quick Links</h4>
+                <div class="hline"></div>
+                <ul>
+                    <li><a href="/teaching">Teaching</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/publications">Publications</a></li>
+                    <li><a href="/join-us">Jobs</a></li>
+                    <li><a href="/theses">Theses</a></li>
+                    <li><a href="/team">Team</a></li>
+                </ul>
             </div>
-            <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <h4>Contact</h4>
+                <div class="hline"></div>
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
+                </p>
+                
+                <!-- Social Links -->
+                <p>
+                    <br/>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+
+                <!-- Copyright Notice -->
+                <p>
+                    <br/>
+                    <small>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small>
                 </p>
             </div>
         </div><! --/row -->

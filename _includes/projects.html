@@ -1,0 +1,23 @@
+{% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+<div class="mdc-layout-grid mdc-card">
+    <div class="mdc-layout-grid__inner">
+    {% assign filter = include.status %}
+    {% assign projects = site.pages | where: "categories", "project" %}
+    {% for item in projects limit:include.limit %}
+      {% if filter == "all" or item.status == filter %}
+      {% unless item.title == page.title %}
+      {% if filter == "active" %}
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-phone">
+      {% elsif filter == "completed" %}
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-3-tablet mdc-layout-grid__cell--span-4-phone">
+      {% else %}
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+      {% endif %}
+          <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ item.img }}" alt="Project icon." width="100%" style="background-color: var(--mdc-theme-background); border-radius: 8px;"/>
+          <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+      </div>
+      {% endunless %}
+      {% endif %}
+    {% endfor %}
+    </div>
+</div>
