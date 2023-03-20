@@ -143,27 +143,27 @@ Good that you asked! If you are interested in participating on the Ovation Summe
 </tr>
 <tr>
     <th style="text-align: center;width: 25%;">
-            <span style="font-size: 120%;"><a href="http://blog.mindgarage.de/liwicki/" target="_blank">Marcus Liwicki</a></span>
-            <br> <span style="font-size: 110%;">General Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <span style="font-size: 120%;"><a href="{{ '/team/liwicki/' | prepend: site.baseurl }}">Marcus Liwicki</a></span>
+            <br> <span style="font-size: 110%;">General Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
             <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;"><a href="https://vaulttech.github.io/" target="_blank">John Gamboa</a></span>
-            <br> <span style="font-size: 110%;">Co-Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <br> <span style="font-size: 110%;">Co-Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
             <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;"><a href="https://dashayushman.github.io/" target="_blank">Ayushman Dash</a></span>
-            <br> <span style="font-size: 110%;">Co-Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <br> <span style="font-size: 110%;">Co-Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
             <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Muhammad Zeshan Afzal</span>
-            <br> <span style="font-size: 110%;">Scientific Co-Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <br> <span style="font-size: 110%;">Scientific Co-Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
             <br><span style="font-size: 100%;"><a href="http://www.insiders-technologies.de/" target="_blank">Insiders Technologies</a></span>
     </th>
 </tr>
@@ -177,18 +177,18 @@ Good that you asked! If you are interested in participating on the Ovation Summe
 <tr>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Fotini Simistira</span>
-            <br> <span style="font-size: 110%;">Organization Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span></span>
+            <br> <span style="font-size: 110%;">Organization Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Dominik Bermühler</span>
-            <br> <span style="font-size: 110%;">Organization Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <br> <span style="font-size: 110%;">Organization Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Andreas Kölsch</span>
-            <br> <span style="font-size: 110%;">Organization Chair</span> 
-            <br> <span style="font-size: 100%;"><a href="http://mindgarage.ai/" target="_blank">MindGarage</a></span>
+            <br> <span style="font-size: 110%;">Organization Chair</span>
+            <br> <span style="font-size: 100%;"><a href="{{ '/' | prepend: site.baseurl }}">MindGarage</a></span>
     </th>
     <th style="text-align: center;width: 25%;">
             <span style="font-size: 120%;">Markus Ebbecke</span>

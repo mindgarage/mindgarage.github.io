@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: MindGarage
-description: "Ovation MindGarage is an independent 'lab' under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture 'Very Deep Learning', his supervised projects and theses, and individual studies."
+title: MindGarage - Deep Learning Lab
+description: "MindGarage is the Deep Learning lab at the Kaiserslautern campus of RPTU, headed by Dr. Muhammad Zeshan Afzal. It is a part of the Augmented Vision group at the university and is focused on research in the field of Deep Learning, Computer Vision, and Machine Learning."
 analytics: "UA-86445551-2" #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://mindgarage.de"
+url: "http://blog.mindgarage.de"
 
 # Build settings
 markdown: kramdown
@@ -152,8 +152,6 @@ members:
     position: Former Head / Founder
     img: marcus_team.jpg
     social:
-      - title: fa-link
-        url: http://blog.mindgarage.de/liwicki/
       - title: envelope #use for email address
         url: mailto:liwicki@cs.uni-kl.de
   - name: Ingrid Romani
@@ -320,4 +318,4 @@ partners:
     url: https://www.uni-kl.de
 
 # Short text about your Lab. Shown in footer on every page and also separately on Home and Contact page.
-about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
+about: "At MindGarage, we believe that creativity and innovation are essential for advancing the field of Artificial Intelligence. That's why we provide an open and unconstrained environment for highly motivated students to explore the possibilities of Deep Learning. We encourage freedom of thought and creativity in tackling challenging problems, and we're always on the lookout for talented individuals to join our team. If you're passionate about AI and want to contribute to groundbreaking research in Deep Learning, we invite you to learn more about our lab and our projects."

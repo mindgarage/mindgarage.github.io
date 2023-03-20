@@ -12,7 +12,7 @@ permalink: /
                 <h2>The Deep Learning Lab at RPTU</h2>
                 <p>
                 <div class="mdc-touch-target-wrapper">
-                    <button class="mdc-button mdc-button--touch mdc-button--unelevated">
+                    <button class="mdc-button mdc-button--touch mdc-button--unelevated" onclick="window.location.href='/team'">
                         <span class="mdc-button__ripple"></span>
                         <span class="mdc-button__touch"></span>
                         <span class="mdc-button__label">JOIN OUR TEAM</span>
@@ -47,7 +47,7 @@ permalink: /
         <!-- Research | Updates -->
         <div class="col-lg-8 col-md-4">
             <h3>Recent Publications</h3>
-            {% include publications.html limit=5 %}
+            {% include publications.html limit=10 %}
             <span>To see more publications, please visit our <a href="publications">publications page</a>.</span>
         </div>
         <div class="col-lg-4 col-md-4 mt">
@@ -105,7 +105,7 @@ permalink: /
 <div id="twrap">
     <div id="twrapback"></div>
     <div class="row">
-        <article class="col-lg-12 history row">
+        <article id="history" class="col-lg-12 history row">
             <h4 style="color:#f2f2f2;">Our History</h4>
             <p>The MindGarage originates in a movement of students, teachers, and friends who are interested in Deep Learning. It is closely connected to the development at the University of Kaiserslautern.</p>
             <dl>

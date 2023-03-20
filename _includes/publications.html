@@ -3,33 +3,70 @@
     {% else %}
     {% assign items = site.data.publications %}
 {% endif %}
-{% assign items = items | compact | sort: 'year' | reverse %}
+{% assign all_items = items | compact | sort: 'year' | reverse %}
 {% if include.limit %}
-    {% assign items = items | slice: 0, include.limit %}
+    {% assign all_items = items | slice: 0, include.limit %}
 {% endif %}
 
-{% assign grouped_items = items | group_by_exp:"item", "item.year" %}
+{% if include.group_by_year %}
+{% assign grouped_items = all_items | group_by_exp:"item", "item.year" %}
 {% for group in grouped_items %}
 {% assign year = group.name %}
 {% assign current_items = group.items %}
 <h4>{{ year }}</h4>
-
 <div class="mdc-card">
   <ul class="mdc-list mdc-card__content">
     {% for item in current_items %}
     <li style="text-align: left">
       <details>
         <summary>
-          <h4 style="font-weight: 700">{{ item.title }}</h4>
-          <span style="position: relative; top: -8px">
-            {{ item.authors }}
-            <a href="{{ item.url }}">(Read Paper)</a>
-        </span>
+          <p>
+            {% assign authors = item.authors | split: ", " %}
+            {% assign first_author = authors | first %}
+            {% assign fa_lastname = first_author | split: " " | last %}
+            {{ fa_lastname }}
+            {% if authors.size > 1 %}
+              et al.
+            {% endif %}
+            ({{ item.year }}).
+            <strong><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></strong>.
+            <i>{{ item.venue }}</i>.
+          </p>
         </summary>
-        <p>{{ item.abstract }}</p>
+        <i style="opacity: 0.75; position: relative; top: -8px;">{{ item.abstract }}</i>
       </details>
     </li>
     {% endfor %}
   </ul>
 </div>
 {% endfor %}
+{% else %}
+{% assign current_items = all_items %}
+<div class="mdc-card">
+  <ul class="mdc-list mdc-card__content">
+    {% for item in current_items %}
+    <li class="mdc-list-item" style="margin: 0 !important; padding: 0 !important;">
+      <details>
+        <summary>
+          <span class="mdc-list-item__ripple"></span>
+          <p>
+            {% assign authors = item.authors | split: ", " %}
+            {% assign first_author = authors | first %}
+            {% assign fa_lastname = first_author | split: " " | last %}
+            {{ fa_lastname }}
+            {% if authors.size > 1 %}
+              et al.
+            {% endif %}
+            ({{ item.year }}).
+            <strong><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></strong>.
+            <i>{{ item.venue }}</i>.
+          </p>
+        </summary>
+        <i style="opacity: 0.75; position: relative; top: -8px;">{{ item.abstract }}</i>
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+

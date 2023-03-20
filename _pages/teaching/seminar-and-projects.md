@@ -29,4 +29,4 @@ You can find proceedings of the projects and seminars from the previous semester
 ### Prerequisites
 Students who want to work on a project or seminar offered by the MindGarage group should have succesfully completed the "Very Deep Learning" course and have a good understanding of deep learning concepts.
 
-If you are interested in working with us on a project or seminar, please <a href="contact">contact us</a>.
+If you are interested in working with us on a project or seminar, please [contact us](/contact).
