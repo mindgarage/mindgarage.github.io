@@ -1,0 +1,171 @@
+[
+    {
+        "title": "Development of Cost-Effective and Easily Replicable Robust Weeding Machine—Premiering Precision Agriculture in Pakistan",
+        "authors": "Azmat Hussain, Hafiza Sundus Fatima, Syed Mohiuddin Zia, Shehzad Hasan, Muhammad Khurram, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Weed management has become a highly labor-intensive activity, which is the reason for decreased yields and high costs. Moreover, the lack of skilled labor and weed-resistant herbicides severely impact the agriculture sector and food production, hence increasing the need for automation in agriculture. The use of agricultural robots will help in the assurance of higher yields and proactive control of the crops. This study proposes a laser-based weeding vehicle with a unique mechanical body that is adjustable relative to the field structure, called the Robot Operating System (ROS) based robust control system, and is customizable, cost-effective and easily replicable. Hence, an autonomous-mobile-agricultural robot with a 20 watt laser has been developed for the precise removal of weed plants. The assembled robot’s testing was conducted in the agro living lab. The field trials have demonstrated that the robot takes approximately 23.7 h at the linear velocity of 0.07 m/s for the weeding of one acre plot. It includes 5 s of laser to kill one weed plant. Comparatively, the primitive weeding technique is highly labor intensive and takes several days to complete an acre plot area. The data presented herein reflects that implementing this technology could become an excellent approach to removing unwanted plants from agricultural fields. This solution is relatively cost-efficient and provides an alternative to expensive human labor initiatives to deal with the increased labor wages.",
+        "url": "https://www.mdpi.com/2075-1702/11/2/287/pdf",
+        "year": "2023",
+        "type": "journal"
+    },
+    {
+        "title": "BoxMask: Revisiting Bounding Box Supervision for Video Object Detection",
+        "authors": "Khurram Azeem Hashmi, Alain Pagani, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "We present a new, simple yet effective approach to uplift video object detection. We observe that prior works operate on instance-level feature aggregation that imminently neglects the refined pixel-level representation, resulting in confusion among objects sharing similar appearance or motion characteristics. To address this limitation, we pro-pose BoxMask, which effectively learns discriminative representations by incorporating class-aware pixel-level information. We simply consider bounding box-level annotations as a coarse mask for each object to supervise our method. The proposed module can be effortlessly integrated into any region-based detector to boost detection. Extensive experiments on ImageNet VID and EPIC KITCHENS datasets demonstrate consistent and significant improvement when we plug our BoxMask module into numerous recent state-of-the-art methods. The code will be available at https://github. com/khurramHashmi/BoxMask.",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Hashmi_BoxMask_Revisiting_Bounding_Box_Supervision_for_Video_Object_Detection_WACV_2023_paper.pdf",
+        "year": "2023",
+        "type": "conference"
+    },
+    {
+        "title": "Learning Attention Propagation for Compositional Zero-Shot Learning",
+        "authors": "Muhammad Gul Zain Ali Khan, Muhammad Ferjad Naeem, Luc Van Gool, Alain Pagani, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Compositional zero-shot learning aims to recognize unseen compositions of seen visual primitives of object classes and their states. While all primitives (states and objects) are observable during training in some combination, their complex interaction makes this task especially hard. For example, wet changes the visual appearance of a dog very differently from a bicycle. Furthermore, we argue that relationships between compositions go beyond shared states or objects. A cluttered office can contain a busy table; even though these compositions don't share a state or object, the presence of a busy table can guide the presence of a cluttered office. We propose a novel method called Compositional Attention Propagated Embedding (CAPE) as a solution. The key intuition to our method is that a rich dependency structure exists between compositions arising from complex interactions of primitives in addition to other dependencies between compositions. CAPE learns to identify this structure and propagates knowledge between them to learn class embedding for all seen and unseen compositions. In the challenging generalized compositional zero-shot setting, we show that our method outperforms previous baselines to set a new state-of-the-art on three publicly available benchmarks.",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Khan_Learning_Attention_Propagation_for_Compositional_Zero-Shot_Learning_WACV_2023_paper.pdf",
+        "year": "2023",
+        "type": "conference"
+    },
+    {
+        "title": "I2MVFormer: Large Language Model Generated Multi-View Document Supervision for Zero-Shot Image Classification",
+        "authors": "Muhammad Ferjad Naeem, Muhammad Gul Zain Ali Khan, Yongqin Xian, Muhammad Zeshan Afzal, Didier Stricker, Luc Van Gool, Federico Tombari",
+        "abstract": "Recent works have shown that unstructured text (documents) from online sources can serve as useful auxiliary information for zero-shot image classification. However, these methods require access to a high-quality source like Wikipedia and are limited to a single source of information. Large Language Models (LLM) trained on web-scale text show impressive abilities to repurpose their learned knowledge for a multitude of tasks. In this work, we provide a novel perspective on using an LLM to provide text supervision for a zero-shot image classification model. The LLM is provided with a few text descriptions from different annotators as examples. The LLM is conditioned on these examples to generate multiple text descriptions for each class(referred to as views). Our proposed model, I2MVFormer, learns multi-view semantic embeddings for zero-shot image classification with these class views. We show that each text view of a class provides complementary information allowing a model to learn a highly discriminative class embedding. Moreover, we show that I2MVFormer is better at consuming the multi-view text supervision from LLM compared to baseline models. I2MVFormer establishes a new state-of-the-art on three public benchmark datasets for zero-shot image classification with unsupervised semantic embeddings.",
+        "url": "https://arxiv.org/pdf/2212.02291",
+        "year": "2022",
+        "type": "preprint"
+    },
+    {
+        "title": "Attention-Guided Disentangled Feature Aggregation for Video Object Detection",
+        "authors": "Shishir Muralidhara, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Object detection is a computer vision task that involves localisation and classification of objects in an image. Video data implicitly introduces several challenges, such as blur, occlusion and defocus, making video object detection more challenging in comparison to still image object detection, which is performed on individual and independent images. This paper tackles these challenges by proposing an attention-heavy framework for video object detection that aggregates the disentangled features extracted from individual frames. The proposed framework is a two-stage object detector based on the Faster R-CNN architecture. The disentanglement head integrates scale, spatial and task-aware attention and applies it to the features extracted by the backbone network across all the frames. Subsequently, the aggregation head incorporates temporal attention and improves detection in the target frame by aggregating the features of the support frames. These include the features extracted from the disentanglement network along with the temporal features. We evaluate the proposed framework using the ImageNet VID dataset and achieve a mean Average Precision (mAP) of 49.8 and 52.5 using the backbones of ResNet-50 and ResNet-101, respectively. The improvement in performance over the individual baseline methods validates the efficacy of the proposed approach.",
+        "url": "https://www.mdpi.com/1424-8220/22/21/8583/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Rethinking Learnable Proposals for Graphical Object Detection in Scanned Document Images",
+        "authors": "Sankalp Sinha, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "In the age of deep learning, researchers have looked at domain adaptation under the pre-training and fine-tuning paradigm to leverage the gains in the natural image domain. These backbones and subsequent networks are designed for object detection in the natural image domain. They do not consider some of the critical characteristics of document images. Document images are sparse in contextual information, and the graphical page objects are logically clustered. This paper investigates the effectiveness of deep and robust backbones in the document image domain. Further, it explores the idea of learnable object proposals through Sparse R-CNN. This paper shows that simple domain adaptation of top-performing object detectors to the document image domain does not lead to better results. Furthermore, empirically showing that detectors based on dense object priors like Faster R-CNN, Mask R-CNN, and Cascade Mask R-CNN are perhaps not best suited for graphical page object detection. Detectors that reduce the number of object candidates while making them learnable are a step towards a better approach. We formulate and evaluate the Sparse R-CNN (SR-CNN) model on the IIIT-AR-13k, PubLayNet, and DocBank datasets and hope to inspire a rethinking of object proposals in the domain of graphical page object detection.",
+        "url": "https://www.mdpi.com/2076-3417/12/20/10578/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "SemAttNet: Toward Attention-Based Semantic Aware Guided Depth Completion",
+        "authors": "Danish Nazir, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Depth completion involves recovering a dense depth map from a sparse map and an RGB image. Recent approaches focus on utilizing color images as guidance images to recover depth at invalid pixels. However, color images alone are not enough to provide the necessary semantic understanding of the scene. Consequently, the depth completion task suffers from sudden illumination changes in RGB images (e.g., shadows). In this paper, we propose a novel three-branch backbone comprising color-guided, semantic-guided, and depth-guided branches. Specifically, the color-guided branch takes a sparse depth map and RGB image as an input and generates color depth which includes color cues (e.g., object boundaries) of the scene. The predicted dense depth map of color-guided branch along-with semantic image and sparse depth map is passed as input to semantic-guided branch for estimating semantic …",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9918022",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Spatio-Temporal Learnable Proposals for End-to-End Video Object Detection",
+        "authors": "Khurram Azeem Hashmi, Didier Stricker, Muhammamd Zeshan Afzal",
+        "abstract": "This paper presents the novel idea of generating object proposals by leveraging temporal information for video object detection. The feature aggregation in modern region-based video object detectors heavily relies on learned proposals generated from a single-frame RPN. This imminently introduces additional components like NMS and produces unreliable proposals on low-quality frames. To tackle these restrictions, we present SparseVOD, a novel video object detection pipeline that employs Sparse R-CNN to exploit temporal information. In particular, we introduce two modules in the dynamic head of Sparse R-CNN. First, the Temporal Feature Extraction module based on the Temporal RoI Align operation is added to extract the RoI proposal features. Second, motivated by sequence-level semantic aggregation, we incorporate the attention-guided Semantic Proposal Feature Aggregation module to enhance object feature representation before detection. The proposed SparseVOD effectively alleviates the overhead of complicated post-processing methods and makes the overall pipeline end-to-end trainable. Extensive experiments show that our method significantly improves the single-frame Sparse RCNN by 8%-9% in mAP. Furthermore, besides achieving state-of-the-art 80.3% mAP on the ImageNet VID dataset with ResNet-50 backbone, our SparseVOD outperforms existing proposal-based methods by a significant margin on increasing IoU thresholds (IoU > 0.5).",
+        "url": "https://arxiv.org/pdf/2210.02368",
+        "year": "2022",
+        "type": "preprint"
+    },
+    {
+        "title": "Mask-Aware Semi-Supervised Object Detection in Floor Plans",
+        "authors": "Tahira Shehzadi, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Research has been growing on object detection using semi-supervised methods in past few years. We examine the intersection of these two areas for floor-plan objects to promote the research objective of detecting more accurate objects with less labeled data. The floor-plan objects include different furniture items with multiple types of the same class, and this high inter-class similarity impacts the performance of prior methods. In this paper, we present Mask R-CNN-based semi-supervised approach that provides pixel-to-pixel alignment to generate individual annotation masks for each class to mine the inter-class similarity. The semi-supervised approach has a student–teacher network that pulls information from the teacher network and feeds it to the student network. The teacher network uses unlabeled data to form pseudo-boxes, and the student network uses both label data with the pseudo boxes and labeled data as the ground truth for training. It learns representations of furniture items by combining labeled and label data. On the Mask R-CNN detector with ResNet-101 backbone network, the proposed approach achieves a mAP of 98.8%, 99.7%, and 99.8% with only 1%, 5% and 10% labeled data, respectively. Our experiment affirms the efficiency of the proposed approach, as it outperforms the previous semi-supervised approaches using only 1% of the labels.",
+        "url": "https://www.mdpi.com/2076-3417/12/19/9398/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "A Comprehensive Survey of Depth Completion Approaches",
+        "authors": "Muhammad Ahmed Ullah Khan, Danish Nazir, Alain Pagani, Hamam Mokayed, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Depth maps produced by LiDAR-based approaches are sparse. Even high-end LiDAR sensors produce highly sparse depth maps, which are also noisy around the object boundaries. Depth completion is the task of generating a dense depth map from a sparse depth map. While the earlier approaches focused on directly completing this sparsity from the sparse depth maps, modern techniques use RGB images as a guidance tool to resolve this problem. Whilst many others rely on affinity matrices for depth completion. Based on these approaches, we have divided the literature into two major categories; unguided methods and image-guided methods. The latter is further subdivided into multi-branch and spatial propagation networks. The multi-branch networks further have a sub-category named image-guided filtering. In this paper, for the first time ever we present a comprehensive survey of depth completion methods. We present a novel taxonomy of depth completion approaches, review in detail different state-of-the-art techniques within each category for depth completion of LiDAR data, and provide quantitative results for the approaches on KITTI and NYUv2 depth completion benchmark datasets.",
+        "url": "https://www.mdpi.com/1424-8220/22/18/6969/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Continual Learning for Table Detection in Document Images",
+        "authors": "Mohammad Minouei, Khurram Azeem Hashmi, Mohammad Reza Soheili, Muhammad Zeshan Afzal, Didier Stricker",
+        "abstract": "The growing amount of data demands methods that can gradually learn from new samples. However, it is not trivial to continually train a network. Retraining a network with new data usually results in a phenomenon called “catastrophic forgetting”. In a nutshell, the performance of the model on the previous data drops by learning from the new instances. This paper explores this issue in the table detection problem. While there are multiple datasets and sophisticated methods for table detection, the utilization of continual learning techniques in this domain has not been studied. We employed an effective technique called experience replay and performed extensive experiments on several datasets to investigate the effects of catastrophic forgetting. The results show that our proposed approach mitigates the performance drop by 15 percent. To the best of our knowledge, this is the first time that continual learning techniques have been adopted for table detection, and we hope this stands as a baseline for future research.",
+        "url": "https://www.mdpi.com/2076-3417/12/18/8969/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Three-Dimensional Reconstruction from a Single RGB Image Using Deep Learning: A Review",
+        "authors": "Muhammad Saif Ullah Khan, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Performing 3D reconstruction from a single 2D input is a challenging problem that is trending in literature. Until recently, it was an ill-posed optimization problem, but with the advent of learning-based methods, the performance of 3D reconstruction has also significantly improved. Infinitely many different 3D objects can be projected onto the same 2D plane, which makes the reconstruction task very difficult. It is even more difficult for objects with complex deformations or no textures. This paper serves as a review of recent literature on 3D reconstruction from a single view, with a focus on deep learning methods from 2018 to 2021. Due to the lack of standard datasets or 3D shape representation methods, it is hard to compare all reviewed methods directly. However, this paper reviews different approaches for reconstructing 3D shapes as depth maps, surface normals, point clouds, and meshes; along with various loss functions and metrics used to train and evaluate these methods.",
+        "url": "https://www.mdpi.com/2313-433X/8/9/225/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Investigating Attention Mechanism for Page Object Detection in Document Images",
+        "authors": "Shivam Naik, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Page object detection in scanned document images is a complex task due to varying document layouts and diverse page objects. In the past, traditional methods such as Optical Character Recognition (OCR)-based techniques have been employed to extract textual information. However, these methods fail to comprehend complex page objects such as tables and figures. This paper addresses the localization problem and classification of graphical objects that visually summarize vital information in documents. Furthermore, this work examines the benefit of incorporating attention mechanisms in different object detection networks to perform page object detection on scanned document images. The model is designed with a Pytorch-based framework called Detectron2. The proposed pipelines can be optimized end-to-end and exhaustively evaluated on publicly available datasets such as DocBank, PublayNet, and IIIT-AR-13K. The achieved results reflect the effectiveness of incorporating the attention mechanism for page object detection in documents.",
+        "url": "https://www.mdpi.com/2076-3417/12/15/7486/htm",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Toward Semi-Supervised Graphical Object Detection in Document Images",
+        "authors": "Goutham Kallempudi, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "The graphical page object detection classifies and localizes objects such as Tables and Figures in a document. As deep learning techniques for object detection become increasingly successful, many supervised deep neural network-based methods have been introduced to recognize graphical objects in documents. However, these models necessitate a substantial amount of labeled data for the training process. This paper presents an end-to-end semi-supervised framework for graphical object detection in scanned document images to address this limitation. Our method is based on a recently proposed Soft Teacher mechanism that examines the effects of small percentage-labeled data on the classification and localization of graphical objects. On both the PubLayNet and the IIIT-AR-13K datasets, the proposed approach outperforms the supervised models by a significant margin in all labeling ratios (1%, 5%, and 10%). Furthermore, the 10% PubLayNet Soft Teacher model improves the average precision of Table, Figure, and List by +5.4,+1.2, and +3.2 points, respectively, with a similar total mAP as the Faster-RCNN baseline. Moreover, our model trained on 10% of IIIT-AR-13K labeled data beats the previous fully supervised method +4.5 points.",
+        "url": "https://www.mdpi.com/1999-5903/14/6/176/htm",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "Exploiting Concepts of Instance Segmentation to Boost Detection in Challenging Environments",
+        "authors": "Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "In recent years, due to the advancements in machine learning, object detection has become a mainstream task in the computer vision domain. The first phase of object detection is to find the regions where objects can exist. With the improvements in deep learning, traditional approaches, such as sliding windows and manual feature selection techniques, have been replaced with deep learning techniques. However, object detection algorithms face a problem when performed in low light, challenging weather, and crowded scenes, similar to any other task. Such an environment is termed a challenging environment. This paper exploits pixel-level information to improve detection under challenging situations. To this end, we exploit the recently proposed hybrid task cascade network. This network works collaboratively with detection and segmentation heads at different cascade levels. We evaluate the proposed methods on three complex datasets of ExDark, CURE-TSD, and RESIDE, and achieve a mAP of 0.71, 0.52, and 0.43, respectively. Our experimental results assert the efficacy of the proposed approach.",
+        "url": "https://www.mdpi.com/1424-8220/22/10/3703/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "EmmDocClassifier: Efficient Multimodal Document Image Classifier for Scarce Data",
+        "authors": "Shrinidhi Kanchi, Alain Pagani, Hamam Mokayed, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Document classification is one of the most critical steps in the document analysis pipeline. There are two types of approaches for document classification, known as image-based and multimodal approaches. Image-based document classification approaches are solely based on the inherent visual cues of the document images. In contrast, the multimodal approach co-learns the visual and textual features, and it has proved to be more effective. Nonetheless, these approaches require a huge amount of data. This paper presents a novel approach for document classification that works with a small amount of data and outperforms other approaches. The proposed approach incorporates a hierarchical attention network (HAN) for the textual stream and the EfficientNet-B0 for the image stream. The hierarchical attention network in the textual stream uses dynamic word embedding through fine-tuned BERT. HAN incorporates both the word level and sentence level features. While earlier approaches rely on training on a large corpus (RVL-CDIP), we show that our approach works with a small amount of data (Tobacco-3482). To this end, we trained the neural network at Tobacco-3482 from scratch. Therefore, we outperform the state-of-the-art by obtaining an accuracy of 90.3%. This results in a relative error reduction rate of 7.9%.",
+        "url": "https://www.mdpi.com/2076-3417/12/3/1457/pdf",
+        "year": "2022",
+        "type": "journal"
+    },
+    {
+        "title": "DeHyFoNet: Deformable Hybrid Network for Formula Detection in Scanned Document Images",
+        "authors": "Muhammad Zeshan Afzal, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker",
+        "abstract": "This work presents an approach for detecting mathematical formulas in scanned document images. The proposed approach is end-to-end trainable. Since many OCR engines cannot reliably work with the formulas, it is essential to isolate them to obtain the clean text for information extraction from the document. Our proposed pipeline comprises a hybrid task cascade network with deformable convolutions and a Resnext101 backbone. Both of these modifications help in better detection. We evaluate the proposed approaches on the ICDAR-2017 POD and Marmot datasets and achieve an overall accuracy of 96% for the ICDAR-2017 POD dataset. We achieve an overall reduction of error of 13%. Furthermore, the results on Marmot datasets are improved for the isolated and embedded formulas. We achieved an accuracy of 98.78% for the isolated formula and 90.21% overall accuracy for embedded formulas. Consequently, it results in an error reduction rate of 43% for isolated and 17.9% for embedded formulas.",
+        "url": "https://www.preprints.org/manuscript/202201.0090/download/final_file",
+        "year": "2022",
+        "type": "preprint"
+    },
+    {
+        "title": "Castabdetectors: Cascade network for table detection in document images with recursive feature pyramid and switchable atrous convolution",
+        "authors": "Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Table detection is a preliminary step in extracting reliable information from tables in scanned document images. We present CasTabDetectoRS, a novel end-to-end trainable table detection framework that operates on Cascade Mask R-CNN, including Recursive Feature Pyramid network and Switchable Atrous Convolution in the existing backbone architecture. By utilizing a comparativelyightweight backbone of ResNet-50, this paper demonstrates that superior results are attainable without relying on pre-and post-processing methods, heavier backbone networks (ResNet-101, ResNeXt-152), and memory-intensive deformable convolutions. We evaluate the proposed approach on five different publicly available table detection datasets. Our CasTabDetectoRS outperforms the previous state-of-the-art results on four datasets (ICDAR-19, TableBank, UNLV, and Marmot) and accomplishes comparable results on ICDAR-17 POD. Upon comparing with previous state-of-the-art results, we obtain a significant relative error reduction of 56.36%, 20%, 4.5%, and 3.5% on the datasets of ICDAR-19, TableBank, UNLV, and Marmot, respectively. Furthermore, this paper sets a new benchmark by performing exhaustive cross-datasets evaluations to exhibit the generalization capabilities of the proposed method.",
+        "url": "https://www.mdpi.com/article/10.3390/jimaging7100214",
+        "year": "2021",
+        "type": "journal"
+    },
+    {
+        "title": "HybridTabNet: Towards better table detection in scanned document images",
+        "authors": "Danish Nazir, Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "Tables in document images are an important entity since they contain crucial information. Therefore, accurate table detection can significantly improve the information extraction from documents. In this work, we present a novel end-to-end trainable pipeline, HybridTabNet, for table detection in scanned document images. Our two-stage table detector uses the ResNeXt-101 backbone for feature extraction and Hybrid Task Cascade (HTC) to localize the tables in scanned document images. Moreover, we replace conventional convolutions with deformable convolutions in the backbone network. This enables our network to detect tables of arbitrary layouts precisely. We evaluate our approach comprehensively on ICDAR-13, ICDAR-17 POD, ICDAR-19, TableBank, Marmot, and UNLV. Apart from the ICDAR-17 POD dataset, our proposed HybridTabNet outperformed earlier state-of-the-art results without depending on pre- and post-processing steps. Furthermore, to investigate how the proposed method generalizes unseen data, we conduct an exhaustive leave-one-out-evaluation. In comparison to prior state-of-the-art results, our method reduced the relative error by 27.57% on ICDAR-2019-TrackA-Modern, 42.64% on TableBank (Latex), 41.33% on TableBank (Word), 55.73% on TableBank (Latex + Word), 10% on Marmot, and 9.67% on the UNLV dataset. The achieved results reflect the superior performance of the proposed method.",
+        "url": "https://www.mdpi.com/2076-3417/11/18/8396/pdf",
+        "year": "2021",
+        "type": "journal"
+    },
+    {
+        "title": "Cascade network with deformable composite backbone for formula detection in scanned document images",
+        "authors": "Khurram Azeem Hashmi, Alain Pagani, Marcus Liwicki, Didier Stricker, Muhammad Zeshan Afzal",
+        "abstract": "This paper presents a novel architecture for detecting mathematical formulas in document images, which is an important step for reliable information extraction in several domains. Recently, Cascade Mask R-CNN networks have been introduced to solve object detection in computer vision. In this paper, we suggest a couple of modifications to the existing Cascade Mask R-CNN architecture: First, the proposed network uses deformable convolutions instead of conventional convolutions in the backbone network to spot areas of interest better. Second, it uses a dual backbone of ResNeXt-101, having composite connections at the parallel stages. Finally, our proposed network is end-to-end trainable. We evaluate the proposed approach on the ICDAR-2017 POD and Marmot datasets. The proposed approach demonstrates state-of-the-art performance on ICDAR-2017 POD at a higher IoU threshold with an f1-score of 0.917, reducing the relative error by 7.8%. Moreover, we accomplished correct detection accuracy of 81.3% on embedded formulas on the Marmot dataset, which results in a relative error reduction of 30%.",
+        "url": "https://www.mdpi.com/2076-3417/11/16/7610/pdf",
+        "year": "2021",
+        "type": "journal"
+    },
+    {
+        "title": "Guided table structure recognition through anchor optimization",
+        "authors": "Khurram Azeem Hashmi, Didier Stricker, Marcus Liwicki, Muhammad Noman Afzal, Muhammad Zeshan Afzal",
+        "abstract": "This paper presents the novel approach towards table structure recognition by leveraging the guided anchors. The concept differs from current state-of-the-art systems for table structure recognition that naively apply object detection methods. In contrast to prior techniques, first, we estimate the viable anchors for table structure recognition. Subsequently, these anchors are exploited to locate the rows and columns in tabular images. Furthermore, the paper introduces a simple and effective method that improves the results using tabular layouts in realistic scenarios. The proposed method is exhaustively evaluated on the two publicly available datasets of table structure recognition: ICDAR-2013 and TabStructDB. Moreover, we empirically established the validity of our method by implementing it on the previous approaches. We accomplished state-of-the-art results on the ICDAR-2013 dataset with an average F1 …",
+        "url": "https://ieeexplore.ieee.org/iel7/6287639/9312710/09508971.pdf",
+        "year": "2021",
+        "type": "journal"
+    }
+
+]

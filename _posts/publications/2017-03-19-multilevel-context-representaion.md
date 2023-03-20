@@ -1,19 +1,17 @@
 ---
 layout: project
-title:  "Multilevel Context Representation for Improving Object Recognition"
-date:   2017-03-19 09:52:28
+title: "Multilevel Context Representation for Improving Object Recognition"
+date: 2017-03-19 09:52:28
 author: Andreas Kölsch, Muhammad Zeshan Afzal, Marcus Liwicki
 categories:
-- publication
-- object recognition
-- context representation
-img: multilevel.png
-thumb: multilevel.png
+  - publication
+  - object recognition
+  - context representation
 tagged: multilevel, context representation, object recognition, AlexNet, GoogLeNet
-client:
 website: https://arxiv.org/abs/1703.06408
 type: conference
 ---
+
 In this work, we propose the combined usage of low- and
 high-level blocks of convolutional neural networks (CNNs)
 for improving object recognition. While recent research focused

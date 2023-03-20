@@ -33,7 +33,7 @@ nav:
     - title: "Teaching"
       url: /teaching/
       options:
-        - title : "Very Deep Learning"
+        - title: "Very Deep Learning"
           url: /teaching/very-deep-learning/
         - title: "Seminar and Projects"
           url: /teaching/seminar-and-projects/
@@ -71,161 +71,202 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Gottlieb-Daimler-Str. 48 (48-462),
-    - 67663 Kaiserslautern
-    - Germany
-email: liwicki@cs.uni-kl.de
-tel: better write a mail ;)
-
+      - Gottlieb-Daimler-Str. 48 (48-462),
+      - 67663 Kaiserslautern
+      - Germany
+email: afzal.tukl@gmail.com
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
 members:
+  # Administrative
+  - name: Muhammad Zeshan Afzal
+    type: faculty
+    position: Current Head / Co-Founder
+    img: shan_team.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/muhammad-zeshan-afzal
+      - title: envelope #use for email address
+        url: mailto:muhammad_zeshan.afzal@dfki.de
+  - name: Didier Stricker
+    type: faculty
+    position: "" # TODO: add position
+    img: didier_team.png
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/didier-stricker-20520530
+      - title: envelope #use for email address
+        url: mailto:didier.stricker@dfki.de
+
+  # PhD Students
+  - name: Khurram Azeem Hashmi
+    type: phd
+    position: PhD - Computer Science
+    img: https://media.licdn.com/dms/image/C4D03AQHD4dF5b6SXwQ/profile-displayphoto-shrink_800_800/0/1584713987401?e=2147483647&v=beta&t=9ajFlCIpXsciO0WEXEAJbaxOr90waCrIpYOB7qVnmuc
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/khurramhashmi
+      - title: envelope #use for email address
+        url: mailto:khurram_azeem.hashmi@dfki.de
+  - name: Tahira Shehzadi
+    type: phd
+    position: PhD - Computer Science
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/tahira-shehzadi-a9022812b
+      - title: envelope #use for email address
+        url: mailto:tahira.shehzadi@dfki.de
+  - name: Muhammad Saif Ullah Khan
+    type: phd
+    position: PhD - Computer Science
+    img: https://github.com/saifkhichi96.png
+    social:
+      - title: globe
+        url: https://www.saifkhichi.com/
+      - title: linkedin
+        url: https://www.linkedin.com/in/saifkhichi96
+      - title: github
+        url: https://www.github.com/saifkhichi96
+      - title: envelope #use for email address
+        url: mailto:muhammad_saif_ullah.khan@dfki.de
+
+  # Research Assistants
+  - name: Sheikh Talha Uddin
+    type: hiwi
+    position: Research Assistant
+  - name: Sankalp Sinha
+    type: hiwi
+    position: Research Assistant
+  - name: Muhammad Ahmed Ullah Khan
+    type: hiwi
+    position: Research Assistant
+  - name: Saad Najib
+    type: hiwi
+    position: Research Assistant
+
+  # Alumni (Administrative)
   - name: Marcus Liwicki
     type: alumni
-    position: Head
+    position: Former Head / Founder
     img: marcus_team.jpg
     social:
       - title: fa-link
         url: http://blog.mindgarage.de/liwicki/
       - title: envelope #use for email address
         url: mailto:liwicki@cs.uni-kl.de
-  - name: Muhammad Zeshan Afzal
-    type: faculty
-    position: Co-founder
-    img: shan_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/muhammad-zeshan-afzal-7a8148105
-      - title: envelope #use for email address
-        url: mailto:afzal@iupr.com
-  - name: Kumar Shridhar
-    type: hiwi
-    position: Research Assistant MindGarage
-    img: shridhar_team.jpg
-    social:
-      - title: fa-link
-        url: https://kumar-shridhar.github.io/
-      - title: envelope #use for email address
-        url: mailto:shridhar.stark@gmail.com
-  - name: Ayushman Dash
-    type: faculty
-    position: Researcher - Insiders Technologies
-    img: ayush_team.jpg
-    social:
-      - title: linkedin
-        url: https://de.linkedin.com/in/ayushman-dash-18a9a4108
-      - title: envelope #use for email address
-        url: mailto:dash.ayushman.99@gmail.com
-  - name: John Gamboa
-    type: phd
-    position: PhD - Linguistics
-    img: john_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:vaulttech@gmail.com 
   - name: Ingrid Romani
-    type: faculty
+    type: alumni
     position: Administrative
     img: ingrid_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:romani@iupr.com
-  - name: Sidney Pontes-Filho
+
+  # Alumni (PhD Students)
+  - name: John Gamboa
     type: alumni
-    position: MS - Computer Science
-    img: sidney_team.jpg
+    position: PhD - Linguistics
+    img: john_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:spontes@rhrk.uni-kl.de
-  - name: Dominik Bermühler
-    type: alumni
-    position: MS - Computer Science
-    img: dominik.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:d.bermuehler@insiders-technologies.de
-  - name: Amit Sahu
-    type: alumni
-    position: MS - Computer Science
-    img: amit_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/amit-sahu-90975212
-      - title: envelope #use for email address
-        url: mailto:amit.sahu89@gmail.com
-  - name: Saurabh Varshneya
-    type: alumni
-    position: MS - Computer Science
-    img: saurabh_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/saurabh-varshneya-0264681a/
-      - title: envelope #use for email address
-        url: mailto:saurabh.varsh@gmail.com
-  - name: Manabendra Saha
-    type: alumni
-    position: MS - Computer Science
-    img: mana_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
-      - title: envelope #use for email address
-        url: mailto:amit.sahu89@gmail.com
-  - name: Abhash Sinha
-    type: alumni
-    position: MS - Computer Science
-    img: abhash_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/abhash-sinha-65b42439/
-      - title: envelope #use for email address
-        url: mailto:abhash_sinha@hotmail.com
-  - name: Vinay Chandran Pondenkandath
-    type: alumni
-    position: MS - Computer Science
-    img: vinay_team.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/vinaychandranp
-      - title: envelope #use for email address
-        url: mailto:vinaychandranp@gmail.com
-  - name: Johannes Freiermuth
-    type: alumni
-    position: MS - Computer Science / student at Insiders Technologies GmbH
-    img: johannes_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:j.freiermuth@insiders-technologies.de
-  - name: Andreas Kölsch
-    type: alumni
-    position: MS - Computer Science / student at Insiders Technologies GmbH
-    img: andreas_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:a.koelsch@insiders-technologies.de
-  - name: Ashutosh Mishra
-    type: alumni
-    position: MS - Computer Science
-    img: ashu_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:ashutosh@cs.uni-kl.de
+        url: mailto:vaulttech@gmail.com
   - name: Vitor Fortes Rey
-    type: phd
-    position: Phd candidate at Uni Kaiserslautern / working at DFKI
+    type: alumni
+    position: PhD - Embedded Intelligence
     img: vitor_team.png
     social:
       - title: envelope #use for email address
         url: mailto:vitorrey@googlemail.com
+
+  # Alumni (Master Students)
+  - name: Ayushman Dash
+    type: alumni
+    position: Researcher (Insiders Technologies GmbH)
+    img: ayush_team.jpg
+  - name: Kumar Shridhar
+    type: alumni
+    position: MS - Computer Science
+    img: shridhar_team.jpg
+  - name: Sidney Pontes-Filho
+    type: alumni
+    position: MS - Computer Science
+    img: sidney_team.jpg
+  - name: Dominik Bermühler
+    type: alumni
+    position: MS - Computer Science
+    img: dominik.jpg
+  - name: Amit Sahu
+    type: alumni
+    position: MS - Computer Science
+    img: amit_team.jpg
+  - name: Saurabh Varshneya
+    type: alumni
+    position: MS - Computer Science
+    img: saurabh_team.jpg
+  - name: Manabendra Saha
+    type: alumni
+    position: MS - Computer Science
+    img: mana_team.jpg
+  - name: Abhash Sinha
+    type: alumni
+    position: MS - Computer Science
+    img: abhash_team.jpg
+  - name: Vinay Chandran Pondenkandath
+    type: alumni
+    position: MS - Computer Science
+    img: vinay_team.jpg
+  - name: Ashutosh Mishra
+    type: alumni
+    position: MS - Computer Science
+    img: ashu_team.jpg
   - name: Priyamvada Shankar
     type: alumni
-    position: MS - Computer Science / student at Bayer AG
+    position: MS - Computer Science (Bayer AG)
     img: priyamvada_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:p_shankar15@cs.uni-kl.de
+  - name: Johannes Freiermuth
+    type: alumni
+    position: MS - Computer Science (Insiders Technologies GmbH)
+    img: johannes_team.jpg
+  - name: Andreas Kölsch
+    type: alumni
+    position: MS - Computer Science (Insiders Technologies GmbH)
+    img: andreas_team.jpg
+  - name: Rajveer Shringi
+    type: alumni
+    position: MS - Computer Science
+    img: raj.jpeg
+  - name: Rajesh Chidambaram
+    type: alumni
+    position: MS - Cognitive Science
+    img: chiddu.jpg
+  - name: Vikrant Singh
+    type: alumni
+    position: MS - Computer Science
+    img: vsingh.jpg
+  - name: Soshi Shimada
+    type: alumni
+    position: MS - Computer Science
+    img: soshi.jpg
+  - name: Sadique Siddiqui
+    type: alumni
+    position: MS - Computer Science
+    img: sadique_team.jpg
+  - name: Surajit Dey
+    type: alumni
+    position: MS - Computer Science
+    img: sdey.jpg
+  - name: Shailza Jolly
+    type: alumni
+    position: MS - Computer Science
+    img: shailza_team.jpg
+  - name: Asif Irfan
+    type: alumni
+    position: MS - Computer Science
+    img: asif_team.jpg
+
+  # Alumni (Bachelor Students)
   - name: Purvanshi Mehta
     type: alumni
     position: Bachelors - Computer Science
@@ -235,97 +276,40 @@ members:
         url: http://purvanshi.github.io
       - title: envelope #use for email address
         url: mailto:purumehta69@gmail.com
-  - name: Rajveer Shringi
-    type: alumni
-    position: MS - Computer Science
-    img: raj.jpeg
-    social:
-      - title: envelope #use for email address
-        url: mailto:rshringi@cs.uni-kl.de
-  - name: Rajesh Chidambaram
-    type: alumni
-    position: MS - Cognitive Science
-    img: chiddu.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:chidamba@rhrk.uni-kl.de
-  - name: Vikrant Singh
-    type: alumni
-    position: MS - Computer Science
-    img: vsingh.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:vikrantsing1108@gmail.com
-  - name: Soshi Shimada
-    type: alumni
-    position: MS - Computer Science
-    img: soshi.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:soshi0928@gmail.com
-  - name: Sadique Siddiqui
-    type: alumni
-    position: MS - Computer Science
-    img: sadique_team.jpg
-    social:
-      - title: linkedin #use for email address
-        url: https://www.linkedin.com/in/sadique-adnan-siddiqui-25982770/
-  - name: Surajit Dey
-    type: alumni
-    position: MS - Computer Science
-    img: sdey.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:s_dey16@cs.uni-kl.de
-  - name: Shailza Jolly
-    type: alumni
-    position: MS - Computer Science
-    img: shailza_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:shailzajolly@gmail.com
-  - name: Asif Irfan
-    type: alumni
-    position: MS - Computer Science
-    img: asif_team.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:asif.irfan01@gmail.com
-      - title: linkedin
-        url: https://www.linkedin.com/in/asif-irfan-1444b335/
-        
+
 # Supporters information. Shown on About page.
 supporters:
+  - name: Marcus Liwicki
+    position: Professor at Luleå University of Technology, Sweden
+    img: marcus_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:liwicki@cs.uni-kl.de
   - name: Werner Weiss
     position: CEO of Insiders Technologies GmbH
-    text: The MindGarage is an opportunity for the Region of Kaiserslautern
     img: weiss_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:w.weiss@insiders-technologies.de 
+        url: mailto:w.weiss@insiders-technologies.de
   - name: Norbert Wehn
     position: Vice President of the University of Kaiserslautern (2013-2017)/ Prof. in Microelectronic Systems
-    text: The MindGarage is a great and innovative idea for education and research in this important topic.
     img: wehn_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:wehn@eit.uni-kl.de
   - name: Markus Ebbecke
     position: Head of Department at Insiders Technologies GmbH
-    text: Deep Learning is a technology which offers amazing opportunities for future business. It is fantastic to see people having an enormous competence working at the MindGarage. They attract other young talents and together they are able to push the limits of technology further. I am very happy about this place as an opportunity in Kaiserslautern.
     img: ebbecke_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:M.Ebbecke@insiders-technologies.de 
+        url: mailto:M.Ebbecke@insiders-technologies.de
   - name: Fotini Simistira
     position: Senior Researcher at University of Fribourg
-    text: I love Deep Learning and I love the MindGarage
     img: fotini_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:fotini.simistira@unifr.ch 
+        url: mailto:fotini.simistira@unifr.ch
 
-        
 # Partner information. Shown on Home and About pages.
 partners:
   - name: Insiders Technologies

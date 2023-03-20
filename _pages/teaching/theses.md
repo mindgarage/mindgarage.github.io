@@ -11,3 +11,15 @@ semester: Summer Semester 2023
 status: current
 permalink: /teaching/theses/
 ---
+
+If you are interested in one of the announced topics, please send your application, including your transcript. If you are interested in a different topic, have own ideas, or wish more information concerning one of the running these, please [write to us](/contact).
+
+### Past Topics
+
+Here is a list of master's theses that have been completed in the past:
+
+{% assign sorted_theses = site.data.theses | sort: 'date' | reverse %}
+{% for thesis in sorted_theses %}
+{% assign url = thesis.url | prepend: site.baseurl %}
+- [{{ thesis.date }}] [{{ thesis.title }}]({{ url }}) ({{ thesis.author }}) <br>
+{% endfor %}

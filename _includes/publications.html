@@ -1,26 +1,35 @@
-{% if include.title %}
-<h3>{{ include.title }}</h3>
+{% if include.type %}
+    {% assign items = site.data.publications | where: 'type', include.type %}
+    {% else %}
+    {% assign items = site.data.publications %}
 {% endif %}
+{% assign items = items | compact | sort: 'year' | reverse %}
+{% if include.limit %}
+    {% assign items = items | slice: 0, include.limit %}
+{% endif %}
+
+{% assign grouped_items = items | group_by_exp:"item", "item.year" %}
+{% for group in grouped_items %}
+{% assign year = group.name %}
+{% assign current_items = group.items %}
+<h4>{{ year }}</h4>
+
 <div class="mdc-card">
-    <ul class="mdc-list mdc-card__content">
-        {% assign filter = include.type | default: "all" %}
-        {% if filter == "all" %}
-        {% assign projects = site.categories['publication'] %}
-        {% else %}
-        {% assign projects = site.categories['publication'] | where: "type", filter %}
-        {% endif %}
-        {% for project in projects limit:include.limit %}
-        <li style="text-align: left;">
-            <details>
-                <summary>
-                    <h4 style="font-weight: 700;">{{ project.title }}</h4>
-                    <span style="position: relative; top: -8px;">{{ project.author }} <a
-                            href="{{ project.website }}">(Read
-                            Paper)</a></span>
-                </summary>
-                <p>{{ project.content | markdownify }}</p>
-            </details>
-        </li>
-        {% endfor %}
-    </ul><!-- portfolio -->
+  <ul class="mdc-list mdc-card__content">
+    {% for item in current_items %}
+    <li style="text-align: left">
+      <details>
+        <summary>
+          <h4 style="font-weight: 700">{{ item.title }}</h4>
+          <span style="position: relative; top: -8px">
+            {{ item.authors }}
+            <a href="{{ item.url }}">(Read Paper)</a>
+        </span>
+        </summary>
+        <p>{{ item.abstract }}</p>
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
+{% endfor %}

@@ -1,19 +1,17 @@
 ---
 layout: project
-title:  "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification"
-date:   2017-05-23 13:38:58
+title: "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification"
+date: 2017-05-23 13:38:58
 author: Muhammad Zeshan Afzal, Andreas Kölsch, Sheraz Ahmed, Marcus Liwicki
 categories:
-- publication
-- document classification
-- deep learning architectures
-img: doucmentClassificationHalf.png
-thumb: doucmentClassificationHalf.png
+  - publication
+  - document classification
+  - deep learning architectures
 tagged: AlexNet, GoogLeNet, VGGNet, document classification, transfer learning
-client:
 website: https://arxiv.org/abs/1704.03557
 type: conference
 ---
+
 We present an exhaustive investigation of recent Deep Learning architectures, algorithms, and strategies for the task of document image classification to finally reduce the error by more than half. Existing approaches, such as the DeepDoc-Classifier, apply standard Convolutional Network architectures with transfer learning from the object recognition domain.
 The contribution of the paper is threefold: First, it investigates recently introduced very deep neural network architectures (GoogLeNet, VGG, ResNet) using transfer learning (from real images).
 Second, it proposes transfer learning from a huge set of document images, i.e. 400; 000 documents.
