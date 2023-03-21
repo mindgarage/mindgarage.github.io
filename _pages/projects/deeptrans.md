@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Deep-Trans"
+title: "DeepTrans"
 date: 2016-10-10 16:00:00
 author: Ayushman Dash
 categories: project

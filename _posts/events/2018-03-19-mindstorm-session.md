@@ -1,19 +1,20 @@
 ---
 layout: page2
-title: "MindStorm Open Research Session: 19th March!"
+title: "MindStorm Session (March 19, 2018)"
 date: 2018-03-19 13:08:46
+estart: 2018-03-19 18:00:00
+elocation: MindGarage
 author: Kumar Shridhar
 categories:
-  - event
-  - mindstorm
+- mindstorm
 img: pic_19_03.jpg
 thumb: pic_19_03.jpg
-permalink: /events/mindstorm/
+permalink: /events/:year-:month-:day-:title/
 ---
 
 ### Session Highlights
 
-1.  At the Mindstorm session, we started with a discussion about the upcoming hackathon. The hackathon will start on Friday, 27th April 2018 at Mindgarage and the results will be announced on Sunday, 29th April 2018 at 12:00 pm EST.
+1. At the MindStorm session, we started with a discussion about the upcoming hackathon. The hackathon will start on Friday, 27th April 2018 at MindGarage and the results will be announced on Sunday, 29th April 2018 at 12:00 pm EST.
 
 2.  Marcus Liwicki shared some insights about the data and how and when the Hackathon will be organized.
 

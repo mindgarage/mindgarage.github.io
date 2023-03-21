@@ -42,7 +42,7 @@ nav:
     - title: "Events"
       url: /events/
       options:
-        - title: "Mindstorm"
+        - title: "MindStorm"
           url: /events/mindstorm/
         - title: "Ovation Summer Academy"
           url: /events/ovation-summer-academy/

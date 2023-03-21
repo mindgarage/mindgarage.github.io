@@ -15,6 +15,7 @@ images:
 - image_path: /assets/img/gallary/day_1/7.jpg
 - image_path: /assets/img/gallary/day_1/9.jpg
 - image_path: /assets/img/gallary/day_1/10.jpg
+permalink: /blog/mindgarage-was-born/
 ---
 
 By the end of October 2016 we received the computers and began setting them up as well as moving the last furniture into the MindGarage. Here you find some impressions of our activities!

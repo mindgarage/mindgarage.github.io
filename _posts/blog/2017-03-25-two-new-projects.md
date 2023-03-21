@@ -9,6 +9,7 @@ categories:
   - arxiv
 img: tac-gan.png
 thumb: blog_thumb.png
+permalink: /blog/the-latest-two-project-outcomes-on-arxiv/
 ---
 
 During the last week two new publications have been uploaded on arxiv. I am happy and a bit proud that the Vision of the MindGarage leads to such nice research contributions. I use this chance to thank the members and supporters of the MindGarage for their active participation!

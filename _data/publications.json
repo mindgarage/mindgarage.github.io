@@ -196,5 +196,59 @@
         "year": "2017",
         "type": "conference",
         "venue": "IJCNN"
+    },
+    {
+        "title": "Multilevel Context Representation for Improving Object Recognition",
+        "authors": "Andreas Kölsch, Muhammad Zeshan Afzal, Marcus Liwicki",
+        "abstract": "In this work, we propose the combined usage of low- and high-level blocks of convolutional neural networks (CNNs) for improving object recognition. While recent research focused on either propagating the context from all layers, e.g. ResNet, (including the very low-level layers) or having multiple loss layers (e.g. GoogLeNet), the importance of the features close to the higher layers is ignored. This paper postulates that the use of context closer to the high-level layers provides the scale and translation invariance and works better than using the top layer only. In particular, we extend AlexNet and GoogLeNet by additional connections in the top n layers. In order to demonstrate the effectiveness of the proposed approach, we evaluated it on the standard ImageNet task. The relative reduction of the classification error is around 1-2% without affecting the computational cost. Furthermore, we show that this approach is orthogonal to typical test data augmentation techniques, as recently introduced by Szegedy et al. (leading to a runtime reduction of 144 during test time).",
+        "url": "https://arxiv.org/abs/1703.06408",
+        "year": "2017",
+        "type": "conference",
+        "venue": "ICDAR"
+    },
+    {
+        "title": "Real-Time Document Image Classification using Deep CNN and Extreme Learning Machines",
+        "authors": "Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki",
+        "abstract": "This paper presents an approach for real-time training and testing for document image classification. In production environments, it is crucial to perform accurate and (time-)efficient training. Existing deep learning approaches for classifying documents do not meet these requirements, as they require much time for training and fine-tuning the deep architectures. Motivated from Computer Vision, we propose a two-stage approach. The first stage trains a deep network that works as feature extractor and in the second stage, Extreme Learning Machines (ELMs) are used for classification. The proposed approach outperforms all previously reported structural and deep learning based methods with a final accuracy of 83.24 % on Tobacco-3482 dataset, leading to a relative error reduction of 25% when compared to a previous Convolutional Neural Network (CNN) based approach (DeepDocClassifier). More importantly, the training time of the ELM is only 1.176 seconds and the overall prediction time for 2, 482 images is 3.066 seconds. As such, this novel approach makes deep learning-based document classification suitable for large-scale real-time applications.",
+        "url": "https://arxiv.org/abs/1711.05862",
+        "year": "2017",
+        "type": "conference",
+        "venue": "ICDAR"
+    },
+    {
+        "title": "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification",
+        "authors": "Muhammad Zeshan Afzal, Andreas Kölsch, Sheraz Ahmed, Marcus Liwicki",
+        "abstract": "We present an exhaustive investigation of recent Deep Learning architectures, algorithms, and strategies for the task of document image classification to finally reduce the error by more than half. Existing approaches, such as the DeepDoc-Classifier, apply standard Convolutional Network architectures with transfer learning from the object recognition domain. The contribution of the paper is threefold: First, it investigates recently introduced very deep neural network architectures (GoogLeNet, VGG, ResNet) using transfer learning (from real images). Second, it proposes transfer learning from a huge set of document images, i.e. 400; 000 documents. Third, it analyzes the impact of the amount of training data (document images) and other parameters to the classification abilities. We use two datasets, the Tobacco-3482 and the large-scale RVL-CDIP dataset. We achieve an accuracy of 91:13% for the Tobacco-3482 dataset while earlier approaches reach only 77:6%. Thus, a relative error reduction of more than 60% is achieved. For the large dataset RVL-CDIP, an accuracy of 90:97% is achieved, corresponding to a relative error reduction of 11:5%.",
+        "url": "https://arxiv.org/abs/1704.03557",
+        "year": "2017",
+        "type": "conference",
+        "venue": "ICDAR"
+    },
+    {
+        "title": "TAC-GAN - Text Conditioned Auxiliary Classifier Generative Adversarial Network",
+        "authors": "Ayushman Dash, John Cristian Borges Gamboa, Sheraz Ahmed, Muhammad Zeshan Afzal, Marcus Liwicki",
+        "abstract": "In this work, we present the Text Conditioned Auxiliary Classifier Generative Adversarial Network, (TAC-GAN) a text to image Generative Adversarial Network (GAN) for synthesizing images from their text descriptions. Former approaches have tried to condition the generative process on the textual data; but allying it to the usage of class information, known to diversify the generated samples and improve their structural coherence, has not been explored. We trained the presented TAC-GAN model on the Oxford-102 dataset of flowers, and evaluated the discriminability of the generated images with Inception-Score, as well as their diversity using the Multi-Scale Structural Similarity Index (MS-SSIM). Our approach outperforms the state-of-the-art models, i.e., its inception score is 3.45, corresponding to a relative increase of 7.8% compared to the recently introduced StackGan. A comparison of the mean MS-SSIM scores of the training and generated samples per class shows that our approach is able to generate highly diverse images with an average MS-SSIM of 0.14 over all generated classes.",
+        "url": "https://arxiv.org/abs/1703.06412",
+        "year": "2017",
+        "type": "preprint",
+        "venue": "arXiv"
+    },
+    {
+        "title": "Recognizing Challenging Handwritten Annotations with Fully Convolutional Networks",
+        "authors": "Andreas Kölsch, Ashutosh Mishra, Saurabh Varshneya, Marcus Liwicki",
+        "abstract": "This paper introduces a very challenging dataset of historic German documents and evaluates Fully Convolutional Neural Network (FCNN) based methods to locate handwritten annotations of any kind in these documents. The handwritten annotations can appear in form of underlines and text by using various writing instruments, e.g., the use of pencils makes the data more challenging. We train and evaluate various end-to-end semantic segmentation approaches and report the results. The task is to classify the pixels of documents into two classes: background and handwritten annotation. The best model achieves a mean Intersection over Union (IoU) score of 95.6% on the test documents of the presented dataset. We also present a comparison of different strategies used for data augmentation and training on our presented dataset. For evaluation, we use the Layout Analysis Evaluator for the ICDAR 2017 Competition on Layout Analysis for Challenging Medieval Manuscripts.",
+        "url": "https://arxiv.org/abs/1804.00236",
+        "year": "2018",
+        "type": "conference",
+        "venue": "ICFHR"
+    },
+    {
+        "title": "Bidirectional Learning for Robust Neural Networks",
+        "authors": "Sidney Pontes-Filho, Marcus Liwicki",
+        "abstract": "A multilayer perceptron can behave as a generative classifier by applying bidirectional learning (BL). It consists of training an undirected neural network to map input to output and vice-versa; therefore it can produce a classifier in one direction, and a generator in the opposite direction for the same data. In this paper, two novel learning techniques are introduced which use BL for improving robustness to white noise static and adversarial examples. The first method is bidirectional propagation of errors, which the error propagation occurs in backward and forward directions. Motivated by the fact that its generative model receives as input a constant vector per class, we introduce as a second method the hybrid adversarial networks (HAN). Its generative model receives a random vector as input and its training is based on generative adversarial networks (GAN). To assess the performance of BL, we perform experiments using several architectures with fully and convolutional layers, with and without bias. Experimental results show that both methods improve robustness to white noise static and adversarial examples, but have different behaviour depending on the architecture and task, being more beneficial to use the one or the other. Nevertheless, HAN using a convolutional architecture with batch normalization presents outstanding robustness, reaching state-of-the-art accuracy on adversarial examples of hand-written digits.",
+        "url": "https://arxiv.org/abs/1805.08006",
+        "year": "2018",
+        "type": "conference",
+        "venue": "IJCNN"
     }
 ]

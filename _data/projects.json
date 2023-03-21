@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Visualization Recommender",
+        "authors": "Neha Pradip Jagtap",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "WS",
+        "year": "2022/2023"
+    },
+    {
+        "title": "Object Detection in Videos",
+        "authors": "Md. Naimur Islam, Gokula Krishna Govindan Ravi",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "SS",
+        "year": "2022"
+    },
+    {
+        "title": "Graphical Page Object Detection in Document Images using Few-Shot Detection",
+        "authors": "Keerti Prem Gadde",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "SS",
+        "year": "2022"
+    },
+    {
+        "title": "Exploiting Attention Mechanisms for Video Object Detection",
+        "authors": "Shishir Muralidhara",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "WS",
+        "year": "2021/2022"
+    },
+    {
+        "title": "Handwritten Circuit Detection",
+        "authors": "Vidushi Jain",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "WS",
+        "year": "2021/2022"
+    },
+    {
+        "title": "Road Traffic Analysis: Combining Traditional and Deep Learning Approaches",
+        "authors": "Prasada Hegde",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "WS",
+        "year": "2021/2022"
+    },
+    {
+        "title": "Impact of Deformable Convolutions on Object Detection Techniques",
+        "authors": "Lala Shakti Swarup Ray, Prateek Mahadevappa Havanur, Muhammad Khalid, Sankalp Sinha",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "Object Detection/Recognition in Floor Plan Images",
+        "authors": "Shashank Mishra",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "Unsupervised Skeleton Based Activity Recognition",
+        "authors": "Jayanth Siddamsetty",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "3D Reconstruction of Textureless Surfaces",
+        "authors": "Muhammad Umer Javed, Dardan Haliti, Muhammad Saif Ullah Khan",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "3D Point Cloud Shape Completion",
+        "authors": "Danish Nazir",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "Model-based Learning from Learned Models in Reinforcement Learning",
+        "authors": "Muhammad Gul Zain Ali Khan",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "Benchmarking for Activity Recognition on Low Resolution",
+        "authors": "Yu Wei Huang",
+        "supervisor": "Muhammad Zeshan Afzal",
+        "semester": "SS",
+        "year": "2021"
+    },
+    {
+        "title": "Object Detection Under Challenging Environment",
+        "authors": "Muhammad Ahmed",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "WS",
+        "year": "2020/2021"
+    }
+]

@@ -7,12 +7,13 @@ estart: 2017-09-18 19:30:00
 eend: 2017-09-22 22:00:00
 categories:
 - blog
-- event
+- events
 img: osa.jpg
 thumb: blog_thumb.png
 excerpt: "We just finished a great event in Berlin. The Ovation Summer Academy (OSA) 2017 was much more successful then ever expected. In this combined research exchange & hackathon event, 30 highly motivated open-minded researchers, students, and members from industry met in the Backfabrik in Berlin and generated six proof of concepts for Conversational AI."
-
+permalink: /blog/:title/
 ---
+
 We just finished a great event in Berlin. The Ovation Summer Academy (OSA) 2017 was much more successful then ever expected. In this combined research exchange & hackathon event, 30 highly motivated open-minded researchers, students, and members from industry met in the Backfabrik in Berlin and generated six proof of concepts for Conversational AI.  Impressions from the Event can be seen in the following video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gY_2gPyWVTg" frameborder="0" allowfullscreen></iframe>
 

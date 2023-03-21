@@ -9,6 +9,7 @@ categories:
   - ijcnn
 img: footstep.png
 thumb: blog_thumb.png
+permalink: /blog/paper-on-sensor-data-transformation-accepted-at-ijcnn/
 ---
 
 Good news! Our [paper on sensor data transformation](https://arxiv.org/abs/1701.01077){:target="_blank"} has been accepted at the International Joint Conference on Neural Networks (IJCNN 2017). See you in Alaska!

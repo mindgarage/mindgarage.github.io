@@ -1,0 +1,37 @@
+---
+layout: page2
+title: MindStorm Open Research Forum
+categories:
+    - event
+    - mindstorm
+permalink: /events/mindstorm/
+---
+
+<p>
+    With the MindStorm Open Research Forum, the MindGarage wants to offer a platform for OpenMinded researchers and practicioners from University & industry to present, discuss, and exchange their ideas.
+</p>
+
+<p>
+    Anyone who likes can present and share their ideas and post open problems & issues. Small food and beverages will be provided with the support of Insiders Technologies.
+</p>
+
+<p>
+    The MindStorm open discussion is held every two weeks on Monday evening at 18:00 EST at MindGarage. The MindGarage is a place for students and researchers who really want to experience Very Deep Learning. It offers a set of High-End Powerful GPU-Computers for performing any experiments the students would like to conduct without bureaucratic constraints. The MindGarage is lead by Prof. Dr. Marcus Liwicki with the help of Dr. Muhammad Zeshan Afzal and a highly motivated team of Master students. The infrastructure is financially supported by Insiders Technologies GmbH, the rooms and administrative support is provided by the University of Kaiserslautern.
+</p>
+
+<div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+    {% assign current_courses = site.pages | where: "categories", "teaching" | where: "status", "current" %}
+    {% for post in site.categories['mindstorm'] %}
+    <div class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-phone">
+        <a class="mdc-card__content" href="{{ post.url | prepend: site.baseurl }}">
+            <div style="height: 128px; overflow: hidden;">
+                <img class="img-responsive" src="{{ " /assets/img/mindstorm/" | prepend: site.baseurl }}{{ post.img }}">
+            </div>
+            <h3 class="ctitle">{{ post.title }}</h3>
+            <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
+        </a>
+    </div>
+    {% endfor %}
+    </div>
+</div>

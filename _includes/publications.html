@@ -5,7 +5,7 @@
 {% endif %}
 {% assign all_items = items | compact | sort: 'year' | reverse %}
 {% if include.limit %}
-    {% assign all_items = items | slice: 0, include.limit %}
+    {% assign all_items = all_items | slice: 0, include.limit %}
 {% endif %}
 
 {% if include.group_by_year %}

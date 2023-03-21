@@ -18,9 +18,8 @@ images:
 - image_path: /assets/img/gallary/dinner_party/8.jpg
 - image_path: /assets/img/gallary/dinner_party/9.jpg
 - image_path: /assets/img/gallary/dinner_party/10.jpg
-
 - image_path: /assets/img/gallary/dinner_party/12.jpg
-
+permalink: /blog/dinner-for-the-volunteers/
 ---
 
 Last week we have [set-up](http://blog.mindgarage.de/blog/fun/2016-10-mindgarage-was-born) the MindGarage. As a small token of appreciation, [Marcus](http://blogs.rhrk.uni-kl.de/mindgarage/marcus-liwicki/) invited the volunteers to a dinner at the Saigon restaurant. It was a gorgeous dinner and we had nice discussions about what we are going to do in the MindGarage. Some impressions below.
