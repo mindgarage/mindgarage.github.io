@@ -8,8 +8,8 @@ elocation: MindGarage
 author: Marcus Liwicki
 categories:
 - event
-img: cooking.jpeg
-thumb: blog_thumb.png
+img: 2017-04-03-cooking-at-mindgarage.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

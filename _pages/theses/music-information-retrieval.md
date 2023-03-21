@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: thesis
 title: "Music Information Retrieval"
 date: 2017-03-01 12:00:00
 author: Ganesh Harugeri
@@ -7,7 +7,7 @@ categories:
   - thesis
   - music information retrieval
 img: music-sound-audio-controls.jpg
-thumb: music-sound-audio-controls.jpg
+thumb: default.jpg
 tagged: master thesis, music information retrieval, fingerprinting
 permalink: /teaching/theses/music-information-retrieval/
 ---

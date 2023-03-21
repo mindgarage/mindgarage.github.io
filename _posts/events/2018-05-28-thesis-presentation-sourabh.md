@@ -8,8 +8,8 @@ elocation: MindGarage
 author: Marcus Liwicki
 categories:
 - event
-img: mg_logo_long_high.jpg
-thumb: mg_logo_long_high.jpg
+img: default.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

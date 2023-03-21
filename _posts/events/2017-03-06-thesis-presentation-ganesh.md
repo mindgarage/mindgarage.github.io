@@ -8,8 +8,8 @@ elocation: Room 48-379
 author: Marcus Liwicki
 categories:
 - event
-img: ganesh.png
-thumb: blog_thumb.png
+img: 2017-03-06-thesis-presentation-ganesh.png
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

@@ -1,41 +1,34 @@
 ---
-layout: page
+layout: page_multicol
 title: Publications
 keyword: Deep Learning, Machine Learning, Artificial Intelligence, Neural Networks, Research Papers, Scientific Publications, Top-tier Conferences, Journals, RPTU, Kaiserslautern, MindGarage, TU Kaiserslautern
 description: Discover the latest research papers and scientific publications from the Deep Learning lab at MindGarage, RPTU Kaiserslautern. Browse our list of top-tier conference and journal publications. Contact us for collaboration opportunities.
 permalink: /publications/
 ---
 
-<div class="container">
-  <div class="row">
-    <p>
-      Welcome to the Publications page of MindGarage, the Deep Learning lab at RPTU Kaiserslautern. Our team has published numerous papers in top-tier conferences and journals, covering a wide range of topics in the field of Deep Learning. Browse our list of publications below, and click on any publication card to learn more about it. If you're interested in collaborating with us on any of our research projects, please don't hesitate to reach out using the contact form.
-    </p>
+<p>
+  Welcome to the Publications page of MindGarage, the Deep Learning lab at RPTU Kaiserslautern. Our team has published numerous papers in top-tier conferences and journals, covering a wide range of topics in the field of Deep Learning. Browse our list of publications below, and click on any publication card to learn more about it. If you're interested in collaborating with us on any of our research projects, please don't hesitate to reach out using the contact form.
+</p>
 
-    <div class="col-lg-6">
-      <h3>Journal Papers</h3>
-      {% include publications.html type="journal" limit=10 %}
-      <div class="mdc-touch-target-wrapper">
-        <button class="mdc-button mdc-button--touch" onclick="window.location.href='/publications/journal-papers/'">
-            <span class="mdc-button__ripple"></span>
-            <span class="mdc-button__touch"></span>
-            <span class="mdc-button__label">See All</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <h3>Conference Papers</h3>
-      {% include publications.html type="conference" limit=5 %}
-      <div class="mdc-touch-target-wrapper">
-        <button class="mdc-button mdc-button--touch" onclick="window.location.href='/publications/conference-papers/'">
-            <span class="mdc-button__ripple"></span>
-            <span class="mdc-button__touch"></span>
-            <span class="mdc-button__label">See All</span>
-        </button>
-      </div>
+<div class="col-lg-6">
+  <h3>Journal Papers</h3>
+  {% include publications.html type="journal" limit=10 %}
+  <button class="mdc-button mb pull-right" onclick="window.location.href='/publications/journal-papers/'">
+      <span class="mdc-button__ripple"></span>
+      <span class="mdc-button__touch"></span>
+      <span class="mdc-button__label">See All Journal Papers</span>
+  </button>
+</div>
+<div class="col-lg-6">
+  <h3>Conference Papers</h3>
+  {% include publications.html type="conference" limit=5 %}
+  <button class="mdc-button mb pull-right" onclick="window.location.href='/publications/conference-papers/'">
+      <span class="mdc-button__ripple"></span>
+      <span class="mdc-button__touch"></span>
+      <span class="mdc-button__label">See All Conference Papers</span>
+  </button>
+  <br>
 
-      <h3>Preprints</h3>
-      {% include publications.html type="preprint" limit=5 %}
-    </div>
-  </div>
+  <h3>Preprints</h3>
+  {% include publications.html type="preprint" limit=5 %}
 </div>

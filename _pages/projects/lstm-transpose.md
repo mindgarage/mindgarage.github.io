@@ -7,12 +7,12 @@ categories: project
 img: tlstm.png
 thumb: tlstm.png
 carousel:
-  - tlstm_full.png
+  - tlstm.png
 tagged: LSTM, architecture, memory-networks
 client:
 website: https://github.com/vaulttech/lstmJam
 status: completed
-permalink: /teaching/seminar-and-projects/lstm-transpose/
+permalink: /lstm-transpose/
 ---
 
 ### What is LSTM.transpose()?

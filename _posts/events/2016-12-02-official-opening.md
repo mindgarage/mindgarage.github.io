@@ -6,10 +6,10 @@ estart: 2016-12-05 17:15:00
 eend: 2016-12-05 19:00:00
 elocation: Room 48-453
 author: Marcus Liwicki
-categories: 
+categories:
 - event
-img: party.jpg
-thumb: blog_thumb.png
+img: 2016-12-02-official-opening.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

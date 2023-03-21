@@ -12,7 +12,7 @@ tagged: RNN, Seq2Seq, LSTM,
 client:
 website: https://github.com/dashayushman/deep-trans
 status: completed
-permalink: /teaching/seminar-and-projects/deeptrans/
+permalink: /deeptrans/
 ---
 
 ## What is Deep Trans?

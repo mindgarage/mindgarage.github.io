@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page_multicol
 title: "MindStorm Session (April 16, 2018)"
 date: 2018-04-16 13:08:46
 estart: 2018-04-16 18:00:00
@@ -7,8 +7,8 @@ elocation: MindGarage
 author: Kumar Shridhar
 categories:
 - mindstorm
-img: pic_16_04.jpg
-thumb: pic_16_04.jpg
+img: 2018-04-16-mindstorm-session.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 
@@ -22,9 +22,9 @@ permalink: /events/:year-:month-:day-:title/
 
 4. A research paper was discussed by Abhash Sinha :
 
-	- <a href="https://arxiv.org/abs/1802.03308" target="_blank">Predictive Neural Networks </a> : where the authors showed that linearly activated recurrent neural networks can approximate any time-dependent function f(t) given by a number of function values. The approximation can effectively be learned by simply solving a linear equation system; no backpropagation or similar methods are needed. 
+	- <a href="https://arxiv.org/abs/1802.03308" target="_blank">Predictive Neural Networks </a> : where the authors showed that linearly activated recurrent neural networks can approximate any time-dependent function f(t) given by a number of function values. The approximation can effectively be learned by simply solving a linear equation system; no backpropagation or similar methods are needed.
 
-5. Finally, the session ended with a topic presentation on <a href="https://research.googleblog.com/2018/04/introducing-semantic-experiences-with.html" target="_blank">Introducing Semantic Experiences with Talk to Books and Semantris</a> by Rajveer Shringi. 
+5. Finally, the session ended with a topic presentation on <a href="https://research.googleblog.com/2018/04/introducing-semantic-experiences-with.html" target="_blank">Introducing Semantic Experiences with Talk to Books and Semantris</a> by Rajveer Shringi.
 
 
 

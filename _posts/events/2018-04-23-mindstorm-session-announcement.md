@@ -7,8 +7,8 @@ elocation: MindGarage
 author: Kumar Shridhar
 categories:
 - event
-img: pic1.jpg
-thumb: pic1.jpg
+img: 2018-04-23-mindstorm-session-announcement.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page_multicol
 title: "MindStorm Session (March 19, 2018)"
 date: 2018-03-19 13:08:46
 estart: 2018-03-19 18:00:00
@@ -7,8 +7,8 @@ elocation: MindGarage
 author: Kumar Shridhar
 categories:
 - mindstorm
-img: pic_19_03.jpg
-thumb: pic_19_03.jpg
+img: 2018-03-19-mindstorm-session.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

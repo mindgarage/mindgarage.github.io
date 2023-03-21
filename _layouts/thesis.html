@@ -1,0 +1,24 @@
+---
+layout: page_multicol
+---
+
+<div class="col-lg-8 col-md-7">
+    {% if page.img %}
+    <div style="height: 128px; overflow: hidden; background-image: url('{{ " /assets/img/thesis/" | prepend: site.baseurl }}{{ page.img }}'); background-size: cover; background-position: center;">
+    </div>
+    {% endif %}
+    {{ content }}
+</div>
+
+<div class="col-lg-4 col-md-5">
+    <h4>Thesis Details</h4>
+    <div class="hline"></div>
+    <p>
+        <b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}<br>
+        <b>Author:</b> {{ page.author }}<br>
+        <b>Tags:</b>
+        {% for tag in page.tagged %}
+            <a href="{{ "/category/#" | prepend: site.baseurl }}{{ tag }}">{{ tag }}</a>
+        {% endfor %}<br>
+    </p>
+</div>

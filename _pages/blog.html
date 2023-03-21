@@ -1,27 +1,23 @@
 ---
-layout: page
+layout: page_multicol
 title: Blog
 permalink: /blog/
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8" style="display: table;">
-            {% for post in site.categories['blog'] %}
-            <div class="mdc-card" style="display: table-row;  vertical-align: top;">
-                <a class="mdc-card__content" href="{{ post.url | prepend: site.baseurl }}" style="display: inline-block; overflow: hidden;">
-                    <div style="display: table-cell; vertical-align: top;">
-                        <img class="img-responsive" src="{{ " /assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" width="128px">
-                    </div> 
-                    <div style="display: table-cell; width: 80%; vertical-align: top;">
-                        <h3 class="ctitle" style="margin: 0;">{{ post.title }}</h3>
-                        <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
-                        <p>{{ post.excerpt | strip_html | truncatewords: 30 }} [Read More]</p>
-                    </div>
-                </a>
+<div class="col-lg-8" style="display: table;">
+    {% for post in site.categories['blog'] %}
+    <div style="display: table-row;  vertical-align: top;">
+        <a class="mdc-card__content" href="{{ post.url | prepend: site.baseurl }}" style="display: inline-block; overflow: hidden;">
+            <div style="display: table-cell; width: 20%; vertical-align: top;">
+                <img class="img-responsive" src="{{ " /assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" style="max-width:128px;">
             </div>
-            {% endfor %}
-        </div>
-        {% include sidebar.html %}
+            <div style="display: table-cell; width: 80%; vertical-align: top; padding: 0 0 0 16px;">
+                <h3 class="ctitle" style="margin: 0; padding: 0;">{{ post.title }}</h3>
+                <csmall>{{ post.date | date: "%b %-d, %Y" }} | {{ post.author }}</csmall> <br>
+                {{ post.excerpt | strip_html | truncatewords: 20 }} [Read More]
+            </div>
+        </a>
     </div>
+    {% endfor %}
 </div>
+{% include sidebar.html %}

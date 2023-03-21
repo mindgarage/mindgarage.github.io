@@ -5,7 +5,7 @@ title: MindGarage - Deep Learning Lab
 description: "MindGarage is the Deep Learning lab at the Kaiserslautern campus of RPTU, headed by Dr. Muhammad Zeshan Afzal. It is a part of the Augmented Vision group at the university and is focused on research in the field of Deep Learning, Computer Vision, and Machine Learning."
 analytics: "UA-86445551-2" #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://blog.mindgarage.de"
+url: "https://blog.mindgarage.de/"
 
 # Build settings
 markdown: kramdown
@@ -26,32 +26,16 @@ nav:
   main: # Main navigation
     - title: "Blog"
       url: /blog/
-      options:
-    - title: "Team"
-      url: /team/
-      options:
     - title: "Teaching"
       url: /teaching/
-      options:
-        - title: "Very Deep Learning"
-          url: /teaching/very-deep-learning/
-        - title: "Seminar and Projects"
-          url: /teaching/seminar-and-projects/
-        - title: "Theses"
-          url: /teaching/theses/
-    - title: "Events"
-      url: /events/
-      options:
-        - title: "MindStorm"
-          url: /events/mindstorm/
-        - title: "Ovation Summer Academy"
-          url: /events/ovation-summer-academy/
     - title: "Publications"
       url: /publications/
-      options:
+    - title: "Workshops"
+      url: /events/
+    - title: "Team"
+      url: /team/
     - title: "Contact"
       url: /contact/
-      options:
 
 ### CONTACT SETTINGS ###
 
@@ -74,7 +58,7 @@ address:
       - Gottlieb-Daimler-Str. 48 (48-462),
       - 67663 Kaiserslautern
       - Germany
-email: afzal.tukl@gmail.com
+email: muhammad_zeshan.afzal@dfki.de
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
@@ -132,10 +116,20 @@ members:
       - title: envelope #use for email address
         url: mailto:muhammad_saif_ullah.khan@dfki.de
 
-  # Research Assistants
+  # MS Students (Thesis)
   - name: Sheikh Talha Uddin
     type: hiwi
-    position: Research Assistant
+    position: Thesis - MS Student
+
+  # MS Students (Project)
+  - name: Neha Pradip Jagtap
+    type: hiwi
+    position: Project - MS Student
+  - name: Nimesh
+    type: hiwi
+    position: Project - MS Student
+
+  # Research Assistants
   - name: Sankalp Sinha
     type: hiwi
     position: Research Assistant

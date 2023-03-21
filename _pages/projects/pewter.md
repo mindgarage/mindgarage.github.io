@@ -7,12 +7,12 @@ categories: project
 img: pewter.png
 thumb: pewter.png
 carousel:
-  - pewter_long.png
+  - pewter.png
 tagged: Visualisation, IMU, sensors, Myo, gesture-recognition
 client:
 website: https://github.com/sigvoiced/pewter
 status: completed
-permalink: /teaching/seminar-and-projects/pewter/
+permalink: /pewter/
 ---
 
 ### What is Pewter?

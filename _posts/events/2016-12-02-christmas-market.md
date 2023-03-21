@@ -8,8 +8,8 @@ elocation: "Kaiserslautern Stadtmitte"
 author: Marcus Liwicki
 categories:
 - event
-img: christmas.jpeg
-thumb: blog_thumb.png
+img: 2016-12-02-christmas-market.jpg
+thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 

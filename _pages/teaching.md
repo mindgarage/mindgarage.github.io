@@ -1,12 +1,11 @@
 ---
-layout: page2
+layout: page_multicol
 title: Teaching and Supervision
 permalink: /teaching/
 ---
 
 We offer a variety of courses and seminars at the [RPTU Kaiserslautern-Landau](https://rptu.de/). The courses are offered in the [Department of Computer Science](https://cs.rptu.de/) and are related to the applications of deep learning on computer vision tasks. The courses are offered in English.
 
-<div class="col-lg-12">
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
     {% assign current_courses = site.pages | where: "categories", "teaching" | where: "status", "current" %}
@@ -18,5 +17,4 @@ We offer a variety of courses and seminars at the [RPTU Kaiserslautern-Landau](h
     </div>
     {% endfor %}
     </div>
-</div>
 </div>

@@ -12,7 +12,7 @@ tagged: sign2voice, gesture-recognition, seq2seq
 client:
 website:
 status: completed
-permalink: /teaching/seminar-and-projects/voice/
+permalink: /voice/
 ---
 
 ### What is Voice?

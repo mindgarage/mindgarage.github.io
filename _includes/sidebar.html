@@ -1,40 +1,36 @@
-<div class="col-md-4">
-    <h4>Search</h4>
-    <div class="hline"></div>
-        <p>
-            <input type="text" class="form-control" placeholder="Search something">
+<div class="col-md-4 mdc-card mdc-card--outlined">
+    <div class="mdc-card__content">
+        <h4>Subscribe</h4>
+        <div class="hline"></div>
+        <p class="rss-subscribe">Subscribe to this blog <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>.
         </p>
-    <div class="spacing"></div>
 
-    <h4>Subscribe</h4>
-    <div class="hline"></div>
-    <p class="rss-subscribe">Subscribe to this blog <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>.
-    </p>
-    <div class="spacing"></div>
+        <h4>Recent Posts</h4>
+        <div class="hline"></div>
+        <ul class="mdc-list mdc-list--two-line">
+            {% for post in site.categories['blog'] limit:4 %}
+            <li class="mdc-list-item">
+                <span class="mdc-list-item__ripple"></span>
+                <span class="mdc-list-item__text" style="padding-left: 4px; padding-right: 4px; max-lines: none;">
+                    <span class="mdc-list-item__primary-text"><a href="{{ post.url }}">{{ post.title }}</a></span>
+                    <span class="mdc-list-item__secondary-text"> {{post.author}} <em>({{ post.date | date_to_string }})</em></span>
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
 
-    <h4>Recent Posts</h4>
-    <div class="hline"></div>
-    <ul class="mdc-list mdc-list--two-line">
-        {% for post in site.categories['blog'] limit:4 %}
-        <li class="mdc-list-item">
-            <span class="mdc-list-item__ripple"></span>
-            <span class="mdc-list-item__text" style="padding-left: 4px; padding-right: 4px; max-lines: none;">
-                <span class="mdc-list-item__primary-text"><a href="{{ post.url }}">{{ post.title }}</a></span>
-                <span class="mdc-list-item__secondary-text"> {{post.author}} <em>({{ post.date | date_to_string }})</em></span>
-            </span>
-        </li>
+        <h4>Popular Tags</h4>
+        <div class="hline"></div>
+        <p>
+        {% for category in site.categories %}
+        {% unless category.first == "blog" or category.first == "project"
+           or category.first == "question" or category.first == "event" %}
+        <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"
+           style="font-size: {{category | last | size | times: 0.5 | plus: 1}}rem; margin: 0; padding: 0;">
+            {{ category | first | downcase }}
+        </a>
+        {% endunless %}
         {% endfor %}
-    </ul>
-
-    <h4>Popular Tags</h4>
-    <div class="hline"></div>
-
-    {% for category in site.categories %}
-    {% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
-    <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"
-       style="font-size: {{category | last | size | times: 0.75}}em; margin: 0; padding: 0;">
-        {{ category | first | downcase }}
-    </a>
-    {% endunless %}
-    {% endfor %}
+        </p>
+    </div>
 </div>

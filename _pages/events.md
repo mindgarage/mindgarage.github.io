@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page
 title: Workshops and Events
 permalink: /events/
 ---

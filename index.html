@@ -1,28 +1,11 @@
 ---
-layout: index
+layout: default
 title: Home
 permalink: /
 ---
 
 <!-- Header -->
-<div id="service" class="primary-container">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-12">
-                <h2>The Deep Learning Lab at RPTU</h2>
-                <p>
-                <div class="mdc-touch-target-wrapper">
-                    <button class="mdc-button mdc-button--touch mdc-button--unelevated" onclick="window.location.href='/team'">
-                        <span class="mdc-button__ripple"></span>
-                        <span class="mdc-button__touch"></span>
-                        <span class="mdc-button__label">JOIN OUR TEAM</span>
-                    </button>
-                </div>
-                </p>
-            </div>
-        </div>
-    </div> <! --/container -->
-</div> <! --/service -->
+{% include header.html %}
 
 <div class="container mb">
 
@@ -45,12 +28,16 @@ permalink: /
         </div>
 
         <!-- Research | Updates -->
-        <div class="col-lg-8 col-md-4">
-            <h3>Recent Publications</h3>
-            {% include publications.html limit=10 %}
-            <span>To see more publications, please visit our <a href="publications">publications page</a>.</span>
+        <div class="col-lg-8 col-md-7">
+            <div class="mdc-card">
+                <div class="mdc-card__content">
+                    <h3>Recent Publications</h3>
+                    {% include publications.html limit=10 %}
+                    <span>To see more publications, please visit our <a href="publications">publications page</a>.</span>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 mt">
+        <div class="col-lg-4 col-md-5">
             <div class="mdc-card">
                 <div class="mdc-card__content">
                     <h4>Latest News &nbsp; <a href="feed.xml"><span class="fa fa-rss"></span></a></h4>
@@ -89,8 +76,9 @@ permalink: /
                 </div>
             </div>
         </div>
-    </div> <! --/row -->
+    </div>
 
+    {% assign projects = site.data.projects | sort: 'year' | reverse %}
     {% assign current_year = site.time | date: '%Y' %}
     {% assign current_month = site.time | date: '%m' | times: 1 %}
     {% if current_semester >= 9 or current_month <= 3 %}
@@ -108,13 +96,25 @@ permalink: /
     {% assign current_semester = 'SS' %}
     {% assign semester_year = current_year %}
     {% endif %}
-    
+
     {% assign current_semester = current_semester | append: " " %}
     {% assign current_semester = current_semester | append: semester_year %}
-    
+
     <h3>Project/Seminar Topics in {{ current_semester }}</h3>
     <p>We are offering the following project (8 CP) and seminar (4 CP) topics in the {{ current_semester }}.</p>
-    {% include projects.html status="active" limit=10 %}
+    <div class="mdc-layout-grid mdc-card">
+        <div class="mdc-layout-grid__inner">
+        {% for project in projects %}
+        {% assign project_semester = project.semester | append: " " %}
+        {% assign project_semester = project_semester | append: project.year %}
+        {% if project_semester == current_semester %}
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-phone">
+            <p>{{ project.title }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
     <p>Do any of these topics interest you? If you are interested in working with us, please <a href="contact">write us an email</a>. You can find more details <a href="/teaching/seminar-and-projects/">on this page</a>, including a list of projects and seminars our students have completed in the past. If you have your own topic idea in the field of Deep Learning, you can also write us about that!</p>
 
     <h3>Research Projects</h3>
@@ -126,12 +126,14 @@ permalink: /
 </div><! --/container -->
 
 <!-- History -->
+<div class="centered">
+    <h4>Our History</h4>
+    <p>The MindGarage originates in a movement of students, teachers, and friends who are interested in Deep Learning.</p>
+</div>
 <div id="twrap">
     <div id="twrapback"></div>
     <div class="row">
         <article id="history" class="col-lg-12 history row">
-            <h4 style="color:#f2f2f2;">Our History</h4>
-            <p>The MindGarage originates in a movement of students, teachers, and friends who are interested in Deep Learning.</p>
             <dl>
                 <div class="cell">
                     <div class="cell-content">
@@ -195,5 +197,5 @@ permalink: /
                 <p>Contact us with resume and cover letter containing your motivation for joining the team and we will get in touch with you.</p>
             </details>
         </div>
-    </div> <! --/row -->
+    </div>
 </div>
