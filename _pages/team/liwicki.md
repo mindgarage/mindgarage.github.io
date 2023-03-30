@@ -1,6 +1,7 @@
 ---
 layout: team
 title: Marcus Liwicki
+description: "Marcus Liwicki is the founder and ex-head of the MindGarage Deep Learning Lab. Learn more about his background and research interests."
 position: Founder of MindGarage
 img: /assets/img/members/marcus_team.jpg
 permalink: /team/liwicki/

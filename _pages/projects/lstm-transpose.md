@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "LSTM.transpose()"
+description: "Explore LSTM-Transpose, a groundbreaking MindGarage project focused on improving sequence-to-sequence learning using advanced LSTM techniques in Deep Learning and Machine Learning."
 date: 2016-11-05 18:00:00
 author: John Gamboa
 categories: project

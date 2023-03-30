@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Seminar and Projects"
+description: "Engage in hands-on learning through seminars and projects at MindGarage, the Deep Learning lab at RPTU Kaiserslautern, focused on practical experience in Deep Learning, Computer Vision, and Machine Learning."
 date: 2018-10-22 16:54:46
 author: Saif Khan
 categories:
@@ -67,6 +68,6 @@ You can find proceedings of the projects and seminars from the previous semester
 {% endfor %}
 
 ### Prerequisites
-Students who want to work on a project or seminar offered by the MindGarage group should have succesfully completed the "[Very Deep Learning](/teaching/very-deep-learning/)" course and have a good understanding of deep learning concepts.
+Students who want to work on a project or seminar offered by the MindGarage group should have successfully completed the "[Very Deep Learning](/teaching/very-deep-learning/)" course and have a good understanding of deep learning concepts.
 
-If you are interested in working with us on a project or seminar, please [contact us](/contact).
+If you are interested in working with us on a project or seminar, please [contact us](/contact/).

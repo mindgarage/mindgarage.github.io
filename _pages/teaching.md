@@ -1,6 +1,7 @@
 ---
-layout: page_multicol
+layout: page
 title: Teaching and Supervision
+description: "Learn from the best at MindGarage's teaching portal, offering advanced courses, seminars, projects, and theses in Deep Learning, Computer Vision, and Machine Learning at RPTU Kaiserslautern."
 permalink: /teaching/
 ---
 

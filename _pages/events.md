@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Workshops and Events
+description: "Stay updated on upcoming events, workshops, and conferences at MindGarage, a leading Deep Learning lab at RPTU Kaiserslautern. Connect with experts and peers in the fields of Deep Learning, Computer Vision, and Machine Learning."
 permalink: /events/
 ---
 

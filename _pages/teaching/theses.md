@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Master Theses"
+description: "Dive into a world of research opportunities with MindGarage's theses topics in Deep Learning, Computer Vision, and Machine Learning at RPTU Kaiserslautern. Collaborate with leading experts and contribute to the future of AI."
 date: 2018-10-22 16:54:46
 author: Saif Khan
 categories:
@@ -10,11 +11,11 @@ status: current
 permalink: /teaching/theses/
 ---
 
-If you are interested in one of the announced topics, please send your application, including your transcript. If you are interested in a different topic, have own ideas, or wish more information concerning one of the running these, please [write to us](/contact).
+If you are interested in one of the announced topics, please send your application, including your transcript. If you are interested in a different topic, have own ideas, or wish more information concerning one of the running these, please [write to us](/contact/).
 
 ### Current Theses
 
-There are no ongoing theses at the moment or the information is not available. You are welcome to [contact us](/contact) for more information or to discuss your own ideas.
+There are no ongoing theses at the moment or the information is not available. You are welcome to [contact us](/contact/) for more information or to discuss your own ideas.
 
 ### Completed Theses
 

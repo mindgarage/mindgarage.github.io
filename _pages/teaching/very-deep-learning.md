@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Very Deep Learning"
+description: "Master the concepts of Very Deep Learning with MindGarage's specialized course at RPTU Kaiserslautern. Enhance your knowledge and skills in Deep Learning, Computer Vision, and Machine Learning."
 date: 2018-10-22 16:54:46
 author: Saif Khan
 categories:

@@ -12,7 +12,7 @@ thumb: default.png
 permalink: /events/:year-:month-:day-:title/
 ---
 
-With the MindStorm Open Research Forum, the MindGarage wants to offer a platform for OpenMinded researchers and practicioners from uni & industry to present, discuss, and exchange their ideas.
+With the MindStorm Open Research Forum, the MindGarage wants to offer a platform for OpenMinded researchers and practitioners from uni & industry to present, discuss, and exchange their ideas.
 
 Anyone who likes can present and share their ideas and post open problems & issues. Small food and beverages will be provided with the support of Insiders Technologies.
 
