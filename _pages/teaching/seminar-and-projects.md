@@ -53,7 +53,7 @@ You can find proceedings of the projects and seminars from the previous semester
 {% assign project_semester = project.semester | append: " " %}
 {% assign project_semester = project_semester | append: project.year %}
 {% if project_semester == current_semester %}
-- __{{ project.title }}__. _{{ project.authors }}_.
+- [__{{ project.title }}__]({{ project.url }}). {% if project.authors %}_{{ project.authors }}_.{% else %}(Supervisor: {{ project.supervisor }}){% endif %}
 {% endif %}
 {% endfor %}
 

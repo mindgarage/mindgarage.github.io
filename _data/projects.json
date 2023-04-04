@@ -1,100 +1,138 @@
 [
     {
+        "title": "Optimize a Human Pose Estimation Network using Knowledge Distillation",
+        "supervisor": "Muhammad Saif Ullah Khan",
+        "semester": "SS",
+        "year": "2023",
+        "status": "Open",
+        "url": "/blog/ss2023-project-khan-human-pose-estimation-knowledge-distillaton"
+    },
+    {
+        "title": "Deep Learning Model Compression Techniques for High Speed Object Detection",
+        "supervisor": "Talha Uddin Sheikh",
+        "semester": "SS",
+        "year": "2023",
+        "status": "Open",
+        "url": "/blog/ss2023-project-sheikh-object-detection-compression"
+    },
+    {
+        "title": "Object Detection in Videos",
+        "supervisor": "Khurram Azeem Hashmi",
+        "semester": "SS",
+        "year": "2023",
+        "status": "Open",
+        "url": "/blog/ss2023-project-hashmi-object-detection-videos"
+    },
+    {
         "title": "Visualization Recommender",
         "authors": "Neha Pradip Jagtap",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "WS",
-        "year": "2022/2023"
+        "year": "2022/2023",
+        "status": "Finished"
     },
     {
         "title": "Object Detection in Videos",
         "authors": "Md. Naimur Islam, Gokula Krishna Govindan Ravi",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "SS",
-        "year": "2022"
+        "year": "2022",
+        "status": "Finished"
     },
     {
         "title": "Graphical Page Object Detection in Document Images using Few-Shot Detection",
         "authors": "Keerti Prem Gadde",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "SS",
-        "year": "2022"
+        "year": "2022",
+        "status": "Finished"
     },
     {
         "title": "Exploiting Attention Mechanisms for Video Object Detection",
         "authors": "Shishir Muralidhara",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "WS",
-        "year": "2021/2022"
+        "year": "2021/2022",
+        "status": "Finished"
     },
     {
         "title": "Handwritten Circuit Detection",
         "authors": "Vidushi Jain",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "WS",
-        "year": "2021/2022"
+        "year": "2021/2022",
+        "status": "Finished"
     },
     {
         "title": "Road Traffic Analysis: Combining Traditional and Deep Learning Approaches",
         "authors": "Prasada Hegde",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "WS",
-        "year": "2021/2022"
+        "year": "2021/2022",
+        "status": "Finished"
     },
     {
         "title": "Impact of Deformable Convolutions on Object Detection Techniques",
         "authors": "Lala Shakti Swarup Ray, Prateek Mahadevappa Havanur, Muhammad Khalid, Sankalp Sinha",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "Object Detection/Recognition in Floor Plan Images",
         "authors": "Shashank Mishra",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "Unsupervised Skeleton Based Activity Recognition",
         "authors": "Jayanth Siddamsetty",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "3D Reconstruction of Textureless Surfaces",
         "authors": "Muhammad Umer Javed, Dardan Haliti, Muhammad Saif Ullah Khan",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "3D Point Cloud Shape Completion",
         "authors": "Danish Nazir",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "Model-based Learning from Learned Models in Reinforcement Learning",
         "authors": "Muhammad Gul Zain Ali Khan",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "Benchmarking for Activity Recognition on Low Resolution",
         "authors": "Yu Wei Huang",
         "supervisor": "Muhammad Zeshan Afzal",
         "semester": "SS",
-        "year": "2021"
+        "year": "2021",
+        "status": "Finished"
     },
     {
         "title": "Object Detection Under Challenging Environment",
         "authors": "Muhammad Ahmed",
         "supervisor": "Khurram Azeem Hashmi",
         "semester": "WS",
-        "year": "2020/2021"
+        "year": "2020/2021",
+        "status": "Finished"
     }
 ]
